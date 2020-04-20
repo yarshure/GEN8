@@ -1,0 +1,45 @@
+
+Clover EFI installer log - Sat Apr  4 21:35:41 CST 2020
+Installer version: v2.4k r4509 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         2.0 TB     disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:                 Apple_APFS Container disk1         2.0 TB     disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +2.0 TB     disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD            2.0 TB     disk1s1
+   2:                APFS Volume Preboot                 45.3 MB    disk1s2
+   3:                APFS Volume Recovery                510.3 MB   disk1s3
+   4:                APFS Volume VM                      1.1 GB     disk1s4
+
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            MacOS-Disk-Creator     +31.4 MB    disk2
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *251.0 GB   disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS Sierra    9.9 GB     disk3s2
+   3:                  Apple_HFS Second                  240.1 GB   disk3s3
+   4:                 Apple_Boot Recovery HD             650.0 MB   disk3s4
+
+======================================================
+Backing up EFI files
+
+Backing up stage2 file /Volumes/Install macOS Sierra/EFIROOTDIR/boot  to /Volumes/Install macOS Sierra/EFI-Backups/r5107/2020-04-04-21h35/boot
+Backing up /Volumes/Install macOS Sierra/EFIROOTDIR/EFI folder to /Volumes/Install macOS Sierra/EFI-Backups/r5107/2020-04-04-21h35/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Install macOS Sierra
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Install macOS Sierra
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================

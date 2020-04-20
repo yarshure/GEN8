@@ -1,0 +1,2383 @@
+0:100  0:100  MemLog inited, TSC freq: 2294785794
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x01508086
+0:100  0:000   Next Generation Core processors (PAM 0x80-0x86)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=33, 0x91=00) at chipset 01508086
+0:100  0:000  , Install = Success
+0:112  0:012  BiosVideoDriverBindingStart!
+0:112  0:000  BiosVideoCheckForVbe
+0:112  0:000  EdidOverride not found
+0:159  0:047   Edid1-
+0:206  0:047   Edid0-
+0:557  0:350   Edid1-
+0:908  0:350   Edid0-
+1:448  0:540   Edid1-
+1:988  0:539   Edid0-
+2:339  0:350   Edid1-
+2:690  0:351   Edid0-
+2:723  0:032     0 640x480 attr=BF - ok, 640x480, working, highest, pref=0
+2:726  0:002     1 800x600 attr=BF - ok, 800x600, working, highest, pref=1
+2:728  0:002     2 1024x768 attr=BF - ok, 1024x768, working, highest, pref=2
+2:730  0:002     3 1280x1024 attr=BF - ok
+2:734  0:003     4 1600x1200 attr=BF - ok
+2:737  0:003     5 1360x768 attr=BF - ok
+2:737  0:000  BV new mode: 2 1024x768
+2:899  0:161   SetMode pref 2 (2) = Success
+4:704  1:804  
+4:704  0:000  Now is 04.04.2020,  13:05:39 (GMT)
+4:704  0:000  Starting Clover revision: 5107 (HEAD, commit a3f3053c3) on CLOVER EFI
+4:704  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 10.14.6]
+4:704  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000) @D4741818
+4:704  0:000  SelfDirPath = \EFI\CLOVER
+4:704  0:000  Clover : Image base = 0xD5226000
+5:542  0:838  SimpleTextEx Status=Success
+5:542  0:000  === [ Get Smbios ] ==============================
+5:542  0:000  Type 16 Index = 0
+5:542  0:000  Total Memory Slots Count = 2
+5:542  0:000  Type 17 Index = 0
+5:542  0:000  SmbiosTable.Type17->Speed = 1866MHz
+5:542  0:000  SmbiosTable.Type17->Size = 4096MB
+5:542  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  1 
+5:542  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+5:542  0:000  SmbiosTable.Type17->SerialNumber = 
+5:542  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+5:542  0:000  Type 17 Index = 1
+5:542  0:000  SmbiosTable.Type17->Speed = 1866MHz
+5:542  0:000  SmbiosTable.Type17->Size = 4096MB
+5:542  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  2 
+5:542  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+5:542  0:000  SmbiosTable.Type17->SerialNumber = 
+5:542  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+5:542  0:000  Boot status=0
+5:542  0:000  Running on: 'ProLiant MicroServer Gen8' with board ''
+5:542  0:000  === [ GetCPUProperties ] ========================
+5:542  0:000  CPU Vendor = 756E6547 Model=306A9
+5:542  0:000   The CPU supported SSE4.1
+5:542  0:000  BrandString = Intel(R) Celeron(R) CPU G1610T @ 2.30GHz
+5:542  0:000   The CPU not supported turbo
+5:542  0:000  MSR 0x35               20002
+5:542  0:000  MSR 0xE2 before patch 1E008400
+5:542  0:000  MSR 0xE2 is locked, PM patches will be turned on
+5:542  0:000  MSR 0xCE              00081010_E0011700
+5:542  0:000  MSR 0x1B0             00000000
+5:542  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+5:542  0:000  MaxDiv/MinDiv: 23.0/16
+5:542  0:000  Turbo: 23/23/23/23
+5:542  0:000  Features: 0xBFEBFBFF
+5:542  0:000  Threads: 2
+5:542  0:000  Cores: 2
+5:542  0:000  FSB: 100 MHz
+5:542  0:000  CPU: 2300 MHz
+5:542  0:000  TSC: 2300 MHz
+5:542  0:000  PIS: 100 MHz
+5:542  0:000  ExternalClock: 25 MHz
+5:542  0:000  === [ GetDevices ] ==============================
+5:542  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+5:542  0:000  PCI (00|00:00.00) : 8086 0150 class=060000
+5:542  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+5:542  0:000  PCI (00|07:00.00) : 10DE 1B82 class=030000
+5:542  0:000   - GOP: Provided by device
+5:542  0:000   - GFX: Model=Unknown family 134 (Pascal)
+5:542  0:000  PCI (00|07:00.01) : 10DE 10F0 class=040300
+5:542  0:000   - HDMI Audio: 
+5:542  0:000  PCI (00|00:06.00) : 8086 015D class=060400
+5:542  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+5:542  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+5:542  0:000  PCI (00|00:1C.04) : 8086 1C18 class=060400
+5:542  0:000  PCI (00|03:00.00) : 14E4 165F class=020000
+5:542  0:000   - LAN: 0 Vendor=Broadcom
+5:542  0:000  PCI (00|03:00.01) : 14E4 165F class=020000
+5:542  0:000   - LAN: 1 Vendor=Broadcom
+5:542  0:000  PCI (00|00:1C.06) : 8086 1C1C class=060400
+5:543  0:000  PCI (00|04:00.00) : 1912 0014 class=0C0330
+5:543  0:000  PCI (00|00:1C.07) : 8086 1C1E class=060400
+5:543  0:000  PCI (00|01:00.00) : 103C 3306 class=088000
+5:543  0:000  PCI (00|01:00.02) : 103C 3307 class=088000
+5:543  0:000  PCI (00|01:00.04) : 103C 3300 class=0C0300
+5:543  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+5:543  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+5:543  0:000  PCI (00|00:1F.00) : 8086 1C54 class=060100
+5:543  0:000  PCI (00|00:1F.02) : 8086 1C02 class=010601
+5:543  0:000  === [ GetDefaultSettings ] ======================
+5:543  0:000  Clover load options size = 0 bytes
+5:544  0:001  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+5:544  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+5:544  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8. Dir not exists
+5:544  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8-2300. Dir not exists
+5:544  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\. 'config.plist' not exists in dir
+5:544  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\-2300. Dir not exists
+5:544  0:000  set OEMPath by default: EFI\CLOVER
+5:546  0:002  EFI\CLOVER\config.plist loaded: Success
+5:546  0:000  === [ GetListOfThemes ] =========================
+5:546  0:000  - [00]: embedded
+5:547  0:000  - [00]: random
+5:547  0:000  - [00]: tonymacx86
+5:547  0:000  === [ Found config plists ] =====================
+5:547  0:000  - config.plist
+5:549  0:001  === [ GetEarlyUserSettings ] ====================
+5:549  0:000  timeout set to 3
+5:549  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+5:601  0:051  Default theme: tonymacx86
+5:616  0:015  Hiding entries with string Windows
+5:631  0:015  Hiding entries with string BOOTX64.EFI
+5:646  0:014  === [ LoadDrivers ] =============================
+5:661  0:014  Loading ApfsDriverLoader.efi  status=Success
+5:718  0:057   - driver needs connecting
+5:734  0:015  Loading AudioDxe.efi  status=Success
+5:779  0:045   - driver needs connecting
+5:800  0:020  Loading FSInject.efi  status=Success
+5:851  0:051  Loading VirtualSmc.efi  status=Success
+5:997  0:146  Loading XhciDxe.efi  status=Success
+6:042  0:044   - driver needs connecting
+6:057  0:015  3 drivers needs connecting ...
+6:072  0:014  PlatformDriverOverrideProtocol->GetDriver overriden
+6:086  0:014  APFS driver loaded
+7:755  1:668  === [ InitScreen ] ==============================
+7:780  0:025  Console modes reported: 4, available modes:
+7:795  0:014   - [01]: 80x25
+7:810  0:014   - [03]: 100x31
+7:835  0:025   - [04]: 128x40 (current mode)
+7:850  0:014  SetScreenResolution: 1920x1080 - not found!
+7:879  0:029  SetScreenResolution: 1024x768 - already set
+7:908  0:029  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+7:923  0:014  new SelfHandle=D4741818
+7:940  0:016  Using embedded font: Success
+7:967  0:027  === [ GetMacAddress ] ===========================
+7:982  0:014  === [ ScanSPD ] =================================
+7:997  0:015  === [ GetAcpiTablesList ] =======================
+8:012  0:014  Get Acpi Tables List from RSDT:
+8:041  0:029   - [00]: FACP  ProLiant len=116
+8:056  0:015   - [01]: SPCR  SPCRRBSU len=80
+8:071  0:015   - [02]: MCFG  ProLiant len=60
+8:086  0:014   - [03]: HPET  ProLiant len=56
+8:122  0:036   - [04]: FFFF  ProLiant len=100
+8:148  0:025   - [05]: SPMI  ProLiant len=64
+8:163  0:014   - [06]: ERST  ProLiant len=560
+8:177  0:014   - [07]: APIC  ProLiant len=594
+8:193  0:015   - [08]: FFFF  ProLiant len=374
+8:208  0:014   - [09]: BERT  ProLiant len=48
+8:222  0:014   - [10]: HEST  ProLiant len=188
+8:237  0:014   - [11]: FFFF  ProLiant len=6420
+8:252  0:015   - [12]: FFFF  ProLiant len=45
+8:267  0:015   - [13]: SSDT  CRSPCI0 len=311
+8:281  0:014   - [14]: SSDT  riser0 len=375
+8:296  0:014   - [15]: SSDT  pcc len=481
+8:311  0:014   - [16]: SSDT  pmab len=887
+8:337  0:026   - [17]: SSDT  PPM RCM  len=1148
+8:352  0:014  Calibrated TSC Frequency = 2294785794 = 2294MHz
+8:368  0:015  === [ GetUserSettings ] =========================
+8:393  0:025  USB FixOwnership: yes
+8:408  0:015  Dropping 1 tables:
+8:424  0:015   - [00]: Drop table  signature="MATS" (5354414D)
+8:543  0:119           - set table: 5354414D,                0 to drop: no
+8:573  0:029   - final DSDT Fix mask=00009051
+8:588  0:015  Using ProductName from clover: iMac13,2
+8:614  0:025  BiosVersion: not set, Using BiosVersion from clover
+8:629  0:014  BiosVersion: IM131.88Z.F000.B00.2002052050
+8:654  0:025  BiosReleaseDate: 02/05/2020
+8:669  0:015  Using EfiVersion from clover: 290.0.0.0.0
+8:684  0:014  Using FirmwareFeatures from clover: 0xE00DE137
+8:699  0:014  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+8:714  0:015  Using PlatformFeature from clover: 0x1
+8:730  0:015  === [ Found DSDT tables ] =======================
+8:745  0:015  === [ ScanVolumes ] =============================
+8:771  0:025  Found 5 volumes with blockIO
+8:786  0:015  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+8:815  0:029          Result of bootcode detection: bootable unknown (legacy)
+8:830  0:015  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+8:860  0:029          Result of bootcode detection: bootable unknown (legacy)
+8:874  0:014          This is SelfVolume !!
+8:901  0:026  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+8:954  0:053          Result of bootcode detection: bootable unknown (legacy)
+8:969  0:015  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+9:001  0:031  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+9:032  0:030  Searching volumes for latest nvram.plist ...
+9:073  0:040  loaded Status=Not Found
+9:087  0:014  PutNvramPlistToRtVars: nvram.plist not found
+9:102  0:015  found 1 handles with audio
+9:118  0:015  No AudioIoDevice stored
+9:133  0:014  no stored audio parameters
+9:147  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+9:163  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+9:178  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+9:193  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+9:234  0:041  === [ InitTheme ] ===============================
+9:249  0:014  use daylight theme
+9:265  0:015  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+9:281  0:015  file sound read: sound.wav Not Found
+9:296  0:015  Loading font from ThemeDir: Error
+9:313  0:017  theme inited
+9:328  0:014  Chosen theme tonymacx86
+9:343  0:014  after NVRAM boot-args=dart=0
+9:358  0:014  Scanning legacy ...
+9:373  0:015  === [ Dump SMC keys from NVRAM ] ================
+9:399  0:025  found AppleSMC protocol
+9:414  0:015  === [ ScanLoader ] ==============================
+9:429  0:015  - [01]: 'EFI'
+9:497  0:067          AddLoaderEntry for Volume Name=EFI
+9:513  0:015          skipped because entry is hidden
+9:538  0:025  - [02]: 'Install macOS High Sierra'
+9:568  0:029          AddLoaderEntry for Volume Name=Install macOS High Sierra
+9:630  0:061  - [03]: 'Second'
+9:664  0:034          AddLoaderEntry for Volume Name=Second
+9:680  0:016      Check if volume Is Hibernated:
+9:706  0:025      Check sleep image 'by signature':
+9:727  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+9:742  0:014      using default sleep image name = \private\var\vm\sleepimage
+9:760  0:017      sleepimage not found -> Not Found
+9:775  0:015      hibernated: no - sign
+9:830  0:054  - [04]: 'Recovery HD'
+9:859  0:029          AddLoaderEntry for Volume Name=Recovery HD
+9:906  0:046  === [ AddCustomTool ] ===========================
+9:922  0:015  found tool \EFI\CLOVER\tools\Shell64U.efi
+9:965  0:042  Checking EFI partition Volume 1 for Clover
+9:979  0:014   Found Clover
+9:997  0:017  === [ GetEfiBootDeviceFromNvram ] ===============
+10:011  0:014   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+10:026  0:014  DefaultIndex=0 and MainMenu.Entries.size()=9
+10:293  0:266  GUI ready
+14:424  4:131  exit from MainMenu 4
+14:440  0:016  === [ StartLoader ] =============================
+14:455  0:015  Finally: ExternalClock=25MHz BusSpeed=99774kHz CPUFreq=2295MHz PIS: hw.busfrequency=100000000Hz
+14:485  0:029  start loader
+14:500  0:015  Loading boot.efi  status=Success
+14:639  0:138  GetOSVersion: 10.13.6 (17G66)
+14:679  0:040  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS
+14:694  0:014  Will not patch boot.efi
+14:720  0:025  === [ PatchSmbios ] =============================
+14:734  0:014  SmbiosTable: Type 2 (BaseBoard Information) not found, create new
+14:749  0:015  insert table 9 for dev 0:0
+14:764  0:014  insert table 9 for dev 0:1
+14:779  0:014  insert table 9 for dev 0:1
+14:794  0:014  Table 11 present, but rewritten for us
+14:810  0:016  Trusting SMBIOS...
+14:825  0:015  Detected alternating SMBIOS channel banks
+14:840  0:014  Channels: 2
+14:855  0:014  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+15:276  0:421   partNum=NOT AVAILABLE       
+15:291  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+15:318  0:027  BANK 0 DIMM0 1866MHz 4096MB(Ext:0MB)
+15:334  0:015   partNum=NOT AVAILABLE       
+15:348  0:014  SMBIOS Type 17 Index = 1 => 1 2:
+15:363  0:014  BANK 1 DIMM0 1866MHz 4096MB(Ext:0MB)
+15:378  0:015  mTotalSystemMemory = 8192
+15:394  0:015  NumberOfMemoryDevices = 2
+15:409  0:014  === [ PatchACPI ] ===============================
+15:424  0:014  Xsdt reallocation done
+15:450  0:026  old FADT length=F4
+15:465  0:014   SignatureFixup: 0xABCD -> 0x0
+15:485  0:020  Apply DsdtFixMask=0x00009051
+15:506  0:020     drop _DSM mask=0xFFFF
+15:521  0:015  === [ FixBiosDsdt ] =============================
+15:536  0:015    0 replacements
+15:552  0:015  Start HPET Fix
+15:567  0:015  Start Add Device HDEF
+15:583  0:015  PreCleanup XSDT: count=18, length=180
+15:597  0:014  PreCleanup XSDT, corrected XSDT: count=18, length=180
+15:612  0:014  === [ ACPIDropTables ] ==========================
+15:639  0:026    0 replacements
+15:654  0:014    0 replacements
+15:668  0:014    0 replacements
+15:684  0:015    0 replacements
+15:699  0:015    0 replacements
+15:714  0:014  ApicCPUNum=2
+15:729  0:014  Cleanup XSDT: count=18, length=180
+15:744  0:015  corrected XSDT count=18, length=180
+15:769  0:025  === [ RestSetup macOS ] =========================
+15:784  0:014  NVidia GFX injection not set
+15:799  0:015  stringlength = 1992
+15:814  0:015  CurrentMode: Width=1024 Height=768
+15:840  0:026  Beginning FSInjection
+15:856  0:015  Use origin smbios table type 1 guid.
+15:872  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+15:887  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+15:901  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10
+15:916  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10_install
+15:931  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13
+15:957  0:025  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13_install
+15:972  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13.6
+15:987  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13.6_install
+16:002  0:015  SetScreenResolution: 1024x768 - already set
+16:043  0:040  Custom boot is disabled
+16:058  0:014  Closing log
+18:498  2:440  Legacy USB Off Done
+18:514  0:015  USB EHCI Ownership for device 1C2D value=1000001
+18:552  0:038  USB UHCI reset for device 3300
+18:568  0:015  Legacy USB Off Done
+18:583  0:015  USB EHCI Ownership for device 1C26 value=1000001
+0:100  0:100  MemLog inited, TSC freq: 2294786474
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x01508086
+0:100  0:000   Next Generation Core processors (PAM 0x80-0x86)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=33, 0x91=00) at chipset 01508086
+0:100  0:000  , Install = Success
+0:112  0:012  BiosVideoDriverBindingStart!
+0:112  0:000  BiosVideoCheckForVbe
+0:112  0:000  EdidOverride not found
+0:159  0:047   Edid1-
+0:206  0:047   Edid0-
+0:557  0:350   Edid1-
+0:908  0:350   Edid0-
+1:448  0:540   Edid1-
+1:988  0:539   Edid0-
+2:339  0:350   Edid1-
+2:690  0:351   Edid0-
+2:723  0:032     0 640x480 attr=BF - ok, 640x480, working, highest, pref=0
+2:725  0:002     1 800x600 attr=BF - ok, 800x600, working, highest, pref=1
+2:728  0:002     2 1024x768 attr=BF - ok, 1024x768, working, highest, pref=2
+2:730  0:002     3 1280x1024 attr=BF - ok
+2:733  0:003     4 1600x1200 attr=BF - ok
+2:737  0:003     5 1360x768 attr=BF - ok
+2:737  0:000  BV new mode: 2 1024x768
+2:900  0:162   SetMode pref 2 (2) = Success
+4:700  1:800  
+4:700  0:000  Now is 04.04.2020,  13:08:23 (GMT)
+4:700  0:000  Starting Clover revision: 5107 (HEAD, commit a3f3053c3) on CLOVER EFI
+4:700  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 10.14.6]
+4:700  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000) @D4741898
+4:700  0:000  SelfDirPath = \EFI\CLOVER
+4:700  0:000  Clover : Image base = 0xD5226000
+5:538  0:838  SimpleTextEx Status=Success
+5:538  0:000  === [ Get Smbios ] ==============================
+5:538  0:000  Type 16 Index = 0
+5:538  0:000  Total Memory Slots Count = 2
+5:538  0:000  Type 17 Index = 0
+5:538  0:000  SmbiosTable.Type17->Speed = 1866MHz
+5:538  0:000  SmbiosTable.Type17->Size = 4096MB
+5:538  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  1 
+5:538  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+5:538  0:000  SmbiosTable.Type17->SerialNumber = 
+5:538  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+5:538  0:000  Type 17 Index = 1
+5:538  0:000  SmbiosTable.Type17->Speed = 1866MHz
+5:538  0:000  SmbiosTable.Type17->Size = 4096MB
+5:538  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  2 
+5:538  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+5:538  0:000  SmbiosTable.Type17->SerialNumber = 
+5:538  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+5:538  0:000  Boot status=0
+5:538  0:000  Running on: 'ProLiant MicroServer Gen8' with board ''
+5:538  0:000  === [ GetCPUProperties ] ========================
+5:538  0:000  CPU Vendor = 756E6547 Model=306A9
+5:538  0:000   The CPU supported SSE4.1
+5:538  0:000  BrandString = Intel(R) Celeron(R) CPU G1610T @ 2.30GHz
+5:538  0:000   The CPU not supported turbo
+5:538  0:000  MSR 0x35               20002
+5:538  0:000  MSR 0xE2 before patch 1E008400
+5:538  0:000  MSR 0xE2 is locked, PM patches will be turned on
+5:538  0:000  MSR 0xCE              00081010_E0011700
+5:538  0:000  MSR 0x1B0             00000000
+5:538  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+5:538  0:000  MaxDiv/MinDiv: 23.0/16
+5:538  0:000  Turbo: 23/23/23/23
+5:538  0:000  Features: 0xBFEBFBFF
+5:538  0:000  Threads: 2
+5:538  0:000  Cores: 2
+5:538  0:000  FSB: 100 MHz
+5:538  0:000  CPU: 2300 MHz
+5:538  0:000  TSC: 2300 MHz
+5:538  0:000  PIS: 100 MHz
+5:538  0:000  ExternalClock: 25 MHz
+5:538  0:000  === [ GetDevices ] ==============================
+5:538  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+5:538  0:000  PCI (00|00:00.00) : 8086 0150 class=060000
+5:538  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+5:538  0:000  PCI (00|07:00.00) : 10DE 1B82 class=030000
+5:538  0:000   - GOP: Provided by device
+5:539  0:000   - GFX: Model=Unknown family 134 (Pascal)
+5:539  0:000  PCI (00|07:00.01) : 10DE 10F0 class=040300
+5:539  0:000   - HDMI Audio: 
+5:539  0:000  PCI (00|00:06.00) : 8086 015D class=060400
+5:539  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+5:539  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+5:539  0:000  PCI (00|00:1C.04) : 8086 1C18 class=060400
+5:539  0:000  PCI (00|03:00.00) : 14E4 165F class=020000
+5:539  0:000   - LAN: 0 Vendor=Broadcom
+5:539  0:000  PCI (00|03:00.01) : 14E4 165F class=020000
+5:539  0:000   - LAN: 1 Vendor=Broadcom
+5:539  0:000  PCI (00|00:1C.06) : 8086 1C1C class=060400
+5:539  0:000  PCI (00|04:00.00) : 1912 0014 class=0C0330
+5:539  0:000  PCI (00|00:1C.07) : 8086 1C1E class=060400
+5:539  0:000  PCI (00|01:00.00) : 103C 3306 class=088000
+5:539  0:000  PCI (00|01:00.02) : 103C 3307 class=088000
+5:539  0:000  PCI (00|01:00.04) : 103C 3300 class=0C0300
+5:539  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+5:539  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+5:539  0:000  PCI (00|00:1F.00) : 8086 1C54 class=060100
+5:539  0:000  PCI (00|00:1F.02) : 8086 1C02 class=010601
+5:539  0:000  === [ GetDefaultSettings ] ======================
+5:539  0:000  Clover load options size = 0 bytes
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8-2300. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\. 'config.plist' not exists in dir
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\-2300. Dir not exists
+5:540  0:000  set OEMPath by default: EFI\CLOVER
+5:542  0:002  EFI\CLOVER\config.plist loaded: Success
+5:542  0:000  === [ GetListOfThemes ] =========================
+5:542  0:000  - [00]: embedded
+5:543  0:000  - [00]: random
+5:543  0:000  - [00]: tonymacx86
+5:543  0:000  === [ Found config plists ] =====================
+5:543  0:000  - config.plist
+5:545  0:001  === [ GetEarlyUserSettings ] ====================
+5:545  0:000  timeout set to 3
+5:545  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+5:573  0:028  Default theme: tonymacx86
+5:588  0:014  Hiding entries with string Windows
+5:603  0:015  Hiding entries with string BOOTX64.EFI
+5:629  0:025  === [ LoadDrivers ] =============================
+5:644  0:015  Loading ApfsDriverLoader.efi  status=Success
+5:690  0:045   - driver needs connecting
+5:715  0:025  Loading AudioDxe.efi  status=Success
+5:760  0:045   - driver needs connecting
+5:775  0:014  Loading FSInject.efi  status=Success
+5:820  0:045  Loading VirtualSmc.efi  status=Success
+5:965  0:145  Loading XhciDxe.efi  status=Success
+6:010  0:044   - driver needs connecting
+6:025  0:015  3 drivers needs connecting ...
+6:051  0:026  PlatformDriverOverrideProtocol->GetDriver overriden
+6:077  0:025  APFS driver loaded
+7:745  1:668  === [ InitScreen ] ==============================
+7:760  0:014  Console modes reported: 4, available modes:
+7:775  0:014   - [01]: 80x25
+7:790  0:015   - [03]: 100x31
+7:805  0:015   - [04]: 128x40 (current mode)
+7:820  0:014  SetScreenResolution: 1920x1080 - not found!
+7:850  0:029  SetScreenResolution: 1024x768 - already set
+7:880  0:029  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+7:906  0:026  new SelfHandle=D4741898
+7:923  0:016  Using embedded font: Success
+7:939  0:016  === [ GetMacAddress ] ===========================
+7:954  0:014  === [ ScanSPD ] =================================
+7:970  0:015  === [ GetAcpiTablesList ] =======================
+7:985  0:015  Get Acpi Tables List from RSDT:
+8:025  0:040   - [00]: FACP  ProLiant len=116
+8:052  0:026   - [01]: SPCR  SPCRRBSU len=80
+8:078  0:026   - [02]: MCFG  ProLiant len=60
+8:093  0:014   - [03]: HPET  ProLiant len=56
+8:109  0:015   - [04]: FFFF  ProLiant len=100
+8:124  0:015   - [05]: SPMI  ProLiant len=64
+8:139  0:014   - [06]: ERST  ProLiant len=560
+8:154  0:014   - [07]: APIC  ProLiant len=594
+8:169  0:015   - [08]: FFFF  ProLiant len=374
+8:184  0:015   - [09]: BERT  ProLiant len=48
+8:199  0:014   - [10]: HEST  ProLiant len=188
+8:214  0:014   - [11]: FFFF  ProLiant len=6420
+8:229  0:015   - [12]: FFFF  ProLiant len=45
+8:255  0:026   - [13]: SSDT  CRSPCI0 len=311
+8:270  0:014   - [14]: SSDT  riser0 len=375
+8:296  0:026   - [15]: SSDT  pcc len=481
+8:311  0:014   - [16]: SSDT  pmab len=887
+8:326  0:015   - [17]: SSDT  PPM RCM  len=1148
+8:342  0:015  Calibrated TSC Frequency = 2294786474 = 2294MHz
+8:357  0:015  === [ GetUserSettings ] =========================
+8:372  0:014  USB FixOwnership: yes
+8:387  0:015  Dropping 1 tables:
+8:402  0:015   - [00]: Drop table  signature="MATS" (5354414D)
+8:522  0:119           - set table: 5354414D,                0 to drop: no
+8:573  0:051   - final DSDT Fix mask=00009051
+8:589  0:015  Using ProductName from clover: iMac13,2
+8:603  0:014  BiosVersion: not set, Using BiosVersion from clover
+8:618  0:014  BiosVersion: IM131.88Z.F000.B00.2002052050
+8:633  0:015  BiosReleaseDate: 02/05/2020
+8:648  0:015  Using EfiVersion from clover: 290.0.0.0.0
+8:663  0:014  Using FirmwareFeatures from clover: 0xE00DE137
+8:678  0:014  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+8:704  0:026  Using PlatformFeature from clover: 0x1
+8:719  0:015  === [ Found DSDT tables ] =======================
+8:734  0:014  === [ ScanVolumes ] =============================
+8:749  0:015  Found 5 volumes with blockIO
+8:764  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+8:794  0:029          Result of bootcode detection: bootable unknown (legacy)
+8:809  0:015  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+8:872  0:063          Result of bootcode detection: bootable unknown (legacy)
+8:887  0:015          This is SelfVolume !!
+8:902  0:015  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+8:932  0:029          Result of bootcode detection: bootable unknown (legacy)
+8:948  0:016  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+8:991  0:042  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+9:021  0:030  Searching volumes for latest nvram.plist ...
+9:051  0:029  loaded Status=Not Found
+9:066  0:015  PutNvramPlistToRtVars: nvram.plist not found
+9:082  0:015  found 1 handles with audio
+9:096  0:014  No AudioIoDevice stored
+9:122  0:026  no stored audio parameters
+9:137  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+9:152  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+9:179  0:026  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+9:194  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+9:208  0:014  === [ InitTheme ] ===============================
+9:224  0:015  use daylight theme
+9:240  0:016  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+9:256  0:016  file sound read: sound.wav Not Found
+9:271  0:014  Loading font from ThemeDir: Error
+9:288  0:017  theme inited
+9:304  0:015  Chosen theme tonymacx86
+9:330  0:026  after NVRAM boot-args=dart=0
+9:345  0:015  Scanning legacy ...
+9:361  0:015  === [ Dump SMC keys from NVRAM ] ================
+9:376  0:014  found AppleSMC protocol
+9:402  0:026  === [ ScanLoader ] ==============================
+9:417  0:014  - [01]: 'EFI'
+9:485  0:068          AddLoaderEntry for Volume Name=EFI
+9:501  0:016          skipped because entry is hidden
+9:516  0:014  - [02]: 'Install macOS High Sierra'
+9:547  0:030          AddLoaderEntry for Volume Name=Install macOS High Sierra
+9:620  0:072  - [03]: 'Second'
+9:654  0:034          AddLoaderEntry for Volume Name=Second
+9:670  0:016      Check if volume Is Hibernated:
+9:685  0:014      Check sleep image 'by signature':
+9:706  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+9:732  0:025      using default sleep image name = \private\var\vm\sleepimage
+9:750  0:017      sleepimage not found -> Not Found
+9:765  0:014      hibernated: no - sign
+9:819  0:054  - [04]: 'Recovery HD'
+9:860  0:040          AddLoaderEntry for Volume Name=Recovery HD
+9:907  0:046  === [ AddCustomTool ] ===========================
+9:923  0:016  found tool \EFI\CLOVER\tools\Shell64U.efi
+9:939  0:016  Checking EFI partition Volume 1 for Clover
+9:954  0:014   Found Clover
+9:972  0:017  === [ GetEfiBootDeviceFromNvram ] ===============
+9:987  0:015   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+10:013  0:025  DefaultIndex=0 and MainMenu.Entries.size()=9
+10:268  0:255  GUI ready
+10:861  0:592  exit from MainMenu 2
+10:876  0:015  ConnectAll after refresh menu
+10:927  0:050  ReinitSelfLib after theme change
+10:941  0:014  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+10:957  0:015  new SelfHandle=D4741898
+10:998  0:041  === [ ScanVolumes ] =============================
+11:013  0:014  Found 5 volumes with blockIO
+11:028  0:015  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+11:058  0:029          Result of bootcode detection: bootable unknown (legacy)
+11:073  0:014  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+11:103  0:030          Result of bootcode detection: bootable unknown (legacy)
+11:129  0:025          This is SelfVolume !!
+11:143  0:014  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+11:173  0:029          Result of bootcode detection: bootable unknown (legacy)
+11:187  0:014  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+11:217  0:029  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+11:274  0:056  Searching volumes for latest nvram.plist ...
+11:303  0:029  loaded Status=Not Found
+11:318  0:014  PutNvramPlistToRtVars: nvram.plist not found
+11:333  0:014  found 1 handles with audio
+11:348  0:014  No AudioIoDevice stored
+11:362  0:014  no stored audio parameters
+11:377  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+11:392  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+11:407  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+11:444  0:036  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+11:459  0:015  theme inited
+11:474  0:015  Chosen theme tonymacx86
+11:489  0:014  after NVRAM boot-args=dart=0
+11:504  0:014  Scanning legacy ...
+11:519  0:015  === [ ScanLoader ] ==============================
+11:544  0:025  - [01]: 'EFI'
+11:607  0:062          AddLoaderEntry for Volume Name=EFI
+11:623  0:016          skipped because entry is hidden
+11:638  0:014  - [02]: 'Install macOS High Sierra'
+11:678  0:040          AddLoaderEntry for Volume Name=Install macOS High Sierra
+11:737  0:059  - [03]: 'Second'
+11:770  0:032          AddLoaderEntry for Volume Name=Second
+11:786  0:016      Check if volume Is Hibernated:
+11:802  0:015      Check sleep image 'by signature':
+11:823  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+11:838  0:014      using default sleep image name = \private\var\vm\sleepimage
+11:856  0:017      sleepimage not found -> Not Found
+11:882  0:026      hibernated: no - sign
+11:937  0:054  - [04]: 'Recovery HD'
+11:966  0:029          AddLoaderEntry for Volume Name=Recovery HD
+12:011  0:044  === [ AddCustomTool ] ===========================
+12:027  0:016  found tool \EFI\CLOVER\tools\Shell64U.efi
+12:043  0:016  Checking EFI partition Volume 1 for Clover
+12:058  0:014   Found Clover
+12:073  0:015  === [ GetEfiBootDeviceFromNvram ] ===============
+12:089  0:015   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+12:115  0:025  DefaultIndex=0 and MainMenu.Entries.size()=9
+24:425  12:310  exit from MainMenu 3
+24:443  0:017  
+Boot options:
+-------------
+24:458  0:014  BootOrder: 1: Boot0000
+24:518  0:059   0) Boot0000: EFI Hard Drive, Attr: 0x1
+24:543  0:025      PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+24:569  0:026      Size: 68 (Attr:4 + FPl:2 + Desc:30 + FP:32 + Opt:0 = 68 -> OK)
+24:584  0:014  -------------
+24:598  0:014  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Install macOS High Sierra, 0
+24:614  0:015  AddBootOption: Clover start boot.efi at Install macOS High Sierra
+24:629  0:015   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+24:644  0:014   BootIndex: 0
+24:658  0:014   Found BootNum: 0001
+24:684  0:025   Boot0001 saved
+24:699  0:014  AddToBootOrder: Boot0001 at index 0
+24:713  0:014  BootOrder: 1: Boot0000
+24:772  0:058  SetVariable: BootOrder = Success
+24:787  0:014   2: Boot0001, Boot0000
+24:872  0:085  AddBootOptionForFile: done.
+24:887  0:014  Entry 0 assigned option D3D90001
+24:902  0:015  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Second, 1
+24:917  0:014  AddBootOption: Clover start boot.efi at Second
+24:931  0:014   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+24:957  0:025   BootIndex: 1
+24:972  0:014   Found BootNum: 0002
+24:987  0:014   Boot0002 saved
+25:002  0:015  AddToBootOrder: Boot0002 at index 1
+25:017  0:015  BootOrder: 2: Boot0001, Boot0000
+25:117  0:100  SetVariable: BootOrder = Success
+25:132  0:015   3: Boot0001, Boot0002, Boot0000
+25:248  0:116  AddBootOptionForFile: done.
+25:264  0:015  Entry 1 assigned option D3D90002
+25:279  0:015  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Recovery HD, 2
+25:305  0:026  AddBootOption: Clover start boot.efi at Recovery HD
+25:320  0:015   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+25:335  0:015   BootIndex: 2
+25:361  0:025   Found BootNum: 0003
+25:376  0:014   Boot0003 saved
+25:391  0:015  AddToBootOrder: Boot0003 at index 2
+25:406  0:015  BootOrder: 3: Boot0001, Boot0002, Boot0000
+25:526  0:119  SetVariable: BootOrder = Success
+25:551  0:025   4: Boot0001, Boot0002, Boot0003, Boot0000
+25:697  0:145  AddBootOptionForFile: done.
+25:712  0:015  Entry 2 assigned option D3D90003
+25:727  0:014  
+Boot options:
+-------------
+25:742  0:014  BootOrder: 4: Boot0001, Boot0002, Boot0003, Boot0000
+25:902  0:160   0) Boot0001: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+25:917  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+25:944  0:026      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+25:959  0:015   1) Boot0002: Clover start boot.efi at Second, Attr: 0x1
+25:974  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+26:000  0:025      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+26:015  0:014   2) Boot0003: Clover start boot.efi at Recovery HD, Attr: 0x1
+26:030  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+26:055  0:025      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+26:070  0:014   3) Boot0000: EFI Hard Drive, Attr: 0x1
+26:085  0:015      PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+26:100  0:014      Size: 68 (Attr:4 + FPl:2 + Desc:30 + FP:32 + Opt:0 = 68 -> OK)
+26:115  0:014  -------------
+26:129  0:014  ReinitSelfLib after theme change
+26:144  0:014  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+26:180  0:036  new SelfHandle=D4741898
+26:195  0:015  === [ ScanVolumes ] =============================
+26:210  0:014  Found 5 volumes with blockIO
+26:225  0:015  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+26:255  0:030          Result of bootcode detection: bootable unknown (legacy)
+26:270  0:014  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+26:301  0:030          Result of bootcode detection: bootable unknown (legacy)
+26:326  0:025          This is SelfVolume !!
+26:342  0:015  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+26:371  0:029          Result of bootcode detection: bootable unknown (legacy)
+26:386  0:014  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+26:417  0:030  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+26:474  0:056  found 1 handles with audio
+26:489  0:015  No AudioIoDevice stored
+26:504  0:014  no stored audio parameters
+26:519  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+26:534  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+26:549  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+26:564  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+26:578  0:014  theme inited
+26:604  0:025  Chosen theme tonymacx86
+26:619  0:014  after NVRAM boot-args=dart=0
+26:634  0:015  Scanning legacy ...
+26:649  0:015  === [ ScanLoader ] ==============================
+26:664  0:014  - [01]: 'EFI'
+26:728  0:063          AddLoaderEntry for Volume Name=EFI
+26:744  0:016          skipped because entry is hidden
+26:769  0:024  - [02]: 'Install macOS High Sierra'
+26:799  0:030          AddLoaderEntry for Volume Name=Install macOS High Sierra
+26:869  0:069  - [03]: 'Second'
+26:913  0:043          AddLoaderEntry for Volume Name=Second
+26:929  0:016      Check if volume Is Hibernated:
+26:944  0:014      Check sleep image 'by signature':
+26:966  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+26:981  0:015      using default sleep image name = \private\var\vm\sleepimage
+26:999  0:017      sleepimage not found -> Not Found
+27:013  0:014      hibernated: no - sign
+27:058  0:044  - [04]: 'Recovery HD'
+27:088  0:030          AddLoaderEntry for Volume Name=Recovery HD
+27:143  0:055  === [ AddCustomTool ] ===========================
+27:170  0:026  found tool \EFI\CLOVER\tools\Shell64U.efi
+27:187  0:016  Checking EFI partition Volume 1 for Clover
+27:202  0:015   Found Clover
+27:217  0:015  === [ GetEfiBootDeviceFromNvram ] ===============
+27:232  0:014   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+27:258  0:026  DefaultIndex=0 and MainMenu.Entries.size()=9
+29:575  2:316  exit from MainMenu 2
+29:591  0:015  ConnectAll after refresh menu
+29:643  0:051  ReinitSelfLib after theme change
+29:659  0:015  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+29:673  0:014  new SelfHandle=D4741898
+29:688  0:015  === [ ScanVolumes ] =============================
+29:715  0:026  Found 5 volumes with blockIO
+29:730  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+29:760  0:030          Result of bootcode detection: bootable unknown (legacy)
+29:786  0:025  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+29:816  0:030          Result of bootcode detection: bootable unknown (legacy)
+29:831  0:014          This is SelfVolume !!
+29:846  0:014  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+29:887  0:041          Result of bootcode detection: bootable unknown (legacy)
+29:902  0:014  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+29:933  0:030  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+29:962  0:029  Searching volumes for latest nvram.plist ...
+30:003  0:040  loaded Status=Not Found
+30:018  0:014  PutNvramPlistToRtVars: nvram.plist not found
+30:033  0:015  found 1 handles with audio
+30:059  0:025  No AudioIoDevice stored
+30:074  0:015  no stored audio parameters
+30:089  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+30:104  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+30:119  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+30:134  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+30:160  0:025  theme inited
+30:175  0:014  Chosen theme tonymacx86
+30:190  0:015  after NVRAM boot-args=dart=0
+30:206  0:015  Scanning legacy ...
+30:220  0:014  === [ ScanLoader ] ==============================
+30:235  0:014  - [01]: 'EFI'
+30:300  0:064          AddLoaderEntry for Volume Name=EFI
+30:316  0:015          skipped because entry is hidden
+30:330  0:014  - [02]: 'Install macOS High Sierra'
+30:372  0:041          AddLoaderEntry for Volume Name=Install macOS High Sierra
+30:442  0:069  - [03]: 'Second'
+30:487  0:044          AddLoaderEntry for Volume Name=Second
+30:503  0:016      Check if volume Is Hibernated:
+30:518  0:014      Check sleep image 'by signature':
+30:540  0:022      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+30:555  0:015      using default sleep image name = \private\var\vm\sleepimage
+30:573  0:017      sleepimage not found -> Not Found
+30:588  0:014      hibernated: no - sign
+30:632  0:044  - [04]: 'Recovery HD'
+30:673  0:040          AddLoaderEntry for Volume Name=Recovery HD
+30:717  0:044  === [ AddCustomTool ] ===========================
+30:733  0:015  found tool \EFI\CLOVER\tools\Shell64U.efi
+30:762  0:028  Checking EFI partition Volume 1 for Clover
+30:777  0:014   Found Clover
+30:792  0:014  === [ GetEfiBootDeviceFromNvram ] ===============
+30:807  0:015   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+30:832  0:025  DefaultIndex=0 and MainMenu.Entries.size()=9
+37:005  6:172  exit from MainMenu 3
+37:021  0:016  
+Boot options:
+-------------
+37:036  0:015  BootOrder: 4: Boot0001, Boot0002, Boot0003, Boot0000
+37:195  0:158   0) Boot0001: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+37:210  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+37:235  0:025      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+37:250  0:014   1) Boot0002: Clover start boot.efi at Second, Attr: 0x1
+37:264  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+37:280  0:015      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+37:295  0:015   2) Boot0003: Clover start boot.efi at Recovery HD, Attr: 0x1
+37:310  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+37:337  0:027      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+37:352  0:015   3) Boot0000: EFI Hard Drive, Attr: 0x1
+37:367  0:014      PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+37:382  0:014      Size: 68 (Attr:4 + FPl:2 + Desc:30 + FP:32 + Opt:0 = 68 -> OK)
+37:397  0:015  -------------
+37:413  0:015  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Install macOS High Sierra, 0
+37:439  0:026  AddBootOption: Clover start boot.efi at Install macOS High Sierra
+37:459  0:020   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+37:491  0:031   BootIndex: 0
+37:506  0:015   Found BootNum: 0004
+37:521  0:014   Boot0004 saved
+37:536  0:014  AddToBootOrder: Boot0004 at index 0
+37:551  0:015  BootOrder: 4: Boot0001, Boot0002, Boot0003, Boot0000
+37:701  0:150  SetVariable: BootOrder = Success
+37:716  0:014   5: Boot0004, Boot0001, Boot0002, Boot0003, Boot0000
+37:903  0:186  AddBootOptionForFile: done.
+37:917  0:014  Entry 0 assigned option D31A0004
+37:933  0:015  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Second, 1
+37:948  0:015  AddBootOption: Clover start boot.efi at Second
+37:963  0:014   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+37:978  0:014   BootIndex: 1
+37:993  0:015   Found BootNum: 0005
+38:019  0:026   Boot0005 saved
+38:045  0:026  AddToBootOrder: Boot0005 at index 1
+38:061  0:015  BootOrder: 5: Boot0004, Boot0001, Boot0002, Boot0003, Boot0000
+38:240  0:179  SetVariable: BootOrder = Success
+38:255  0:014   6: Boot0004, Boot0005, Boot0001, Boot0002, Boot0003, Boot0000
+38:472  0:216  AddBootOptionForFile: done.
+38:487  0:014  Entry 1 assigned option D31A0005
+38:502  0:015  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Recovery HD, 2
+38:517  0:015  AddBootOption: Clover start boot.efi at Recovery HD
+38:543  0:026   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+38:569  0:025   BootIndex: 2
+38:585  0:015   Found BootNum: 0006
+38:599  0:014   Boot0006 saved
+38:614  0:014  AddToBootOrder: Boot0006 at index 2
+38:630  0:015  BootOrder: 6: Boot0004, Boot0005, Boot0001, Boot0002, Boot0003, Boot0000
+38:851  0:221  SetVariable: BootOrder = Success
+38:866  0:014   7: Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+39:122  0:256  AddBootOptionForFile: done.
+39:137  0:014  Entry 2 assigned option D31A0006
+39:152  0:015  
+Boot options:
+-------------
+39:168  0:015  BootOrder: 7: Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+39:417  0:249   0) Boot0004: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+39:433  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+39:447  0:014      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+39:473  0:025   1) Boot0005: Clover start boot.efi at Second, Attr: 0x1
+39:488  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+39:502  0:014      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+39:517  0:014   2) Boot0006: Clover start boot.efi at Recovery HD, Attr: 0x1
+39:532  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+39:547  0:014      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+39:572  0:025   3) Boot0001: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+39:587  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+39:602  0:014      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+39:616  0:014   4) Boot0002: Clover start boot.efi at Second, Attr: 0x1
+39:630  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+39:666  0:035      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+39:681  0:014   5) Boot0003: Clover start boot.efi at Recovery HD, Attr: 0x1
+39:696  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+39:711  0:015      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+39:726  0:014   6) Boot0000: EFI Hard Drive, Attr: 0x1
+39:740  0:014      PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+39:766  0:025      Size: 68 (Attr:4 + FPl:2 + Desc:30 + FP:32 + Opt:0 = 68 -> OK)
+39:781  0:014  -------------
+39:796  0:014  ReinitSelfLib after theme change
+39:811  0:014  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+39:825  0:014  new SelfHandle=D4741898
+39:840  0:015  === [ ScanVolumes ] =============================
+39:866  0:025  Found 5 volumes with blockIO
+39:880  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+39:921  0:040          Result of bootcode detection: bootable unknown (legacy)
+39:946  0:024  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+39:977  0:030          Result of bootcode detection: bootable unknown (legacy)
+39:991  0:014          This is SelfVolume !!
+40:005  0:014  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+40:046  0:040          Result of bootcode detection: bootable unknown (legacy)
+40:061  0:014  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+40:092  0:030  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+40:122  0:030  found 1 handles with audio
+40:137  0:015  No AudioIoDevice stored
+40:152  0:015  no stored audio parameters
+40:167  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+40:193  0:025  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+40:218  0:025  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+40:233  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+40:248  0:015  theme inited
+40:263  0:014  Chosen theme tonymacx86
+40:278  0:014  after NVRAM boot-args=dart=0
+40:293  0:015  Scanning legacy ...
+40:308  0:015  === [ ScanLoader ] ==============================
+40:323  0:014  - [01]: 'EFI'
+40:398  0:074          AddLoaderEntry for Volume Name=EFI
+40:414  0:015          skipped because entry is hidden
+40:429  0:014  - [02]: 'Install macOS High Sierra'
+40:459  0:030          AddLoaderEntry for Volume Name=Install macOS High Sierra
+40:518  0:058  - [03]: 'Second'
+40:560  0:042          AddLoaderEntry for Volume Name=Second
+40:577  0:016      Check if volume Is Hibernated:
+40:591  0:014      Check sleep image 'by signature':
+40:613  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+40:638  0:025      using default sleep image name = \private\var\vm\sleepimage
+40:655  0:016      sleepimage not found -> Not Found
+40:669  0:014      hibernated: no - sign
+40:713  0:044  - [04]: 'Recovery HD'
+40:743  0:029          AddLoaderEntry for Volume Name=Recovery HD
+40:798  0:055  === [ AddCustomTool ] ===========================
+40:813  0:015  found tool \EFI\CLOVER\tools\Shell64U.efi
+40:830  0:016  Checking EFI partition Volume 1 for Clover
+40:844  0:014   Found Clover
+40:869  0:025  === [ GetEfiBootDeviceFromNvram ] ===============
+40:884  0:014   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+40:911  0:026  DefaultIndex=0 and MainMenu.Entries.size()=9
+50:825  9:914  exit from MainMenu 3
+50:841  0:015  
+Boot options:
+-------------
+50:867  0:026  BootOrder: 7: Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+51:116  0:249   0) Boot0004: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+51:131  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+51:146  0:014      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+51:160  0:014   1) Boot0005: Clover start boot.efi at Second, Attr: 0x1
+51:175  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+51:201  0:025      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+51:216  0:014   2) Boot0006: Clover start boot.efi at Recovery HD, Attr: 0x1
+51:231  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+51:246  0:015      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+51:261  0:014   3) Boot0001: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+51:276  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+51:301  0:025      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+51:316  0:014   4) Boot0002: Clover start boot.efi at Second, Attr: 0x1
+51:331  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+51:357  0:025      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+51:372  0:014   5) Boot0003: Clover start boot.efi at Recovery HD, Attr: 0x1
+51:398  0:026      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+51:413  0:014      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+51:427  0:014   6) Boot0000: EFI Hard Drive, Attr: 0x1
+51:443  0:015      PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+51:458  0:015      Size: 68 (Attr:4 + FPl:2 + Desc:30 + FP:32 + Opt:0 = 68 -> OK)
+51:473  0:014  -------------
+51:488  0:014  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Install macOS High Sierra, 0
+51:514  0:025  AddBootOption: Clover start boot.efi at Install macOS High Sierra
+51:528  0:014   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+51:543  0:014   BootIndex: 0
+51:558  0:015   Found BootNum: 0007
+51:573  0:015   Boot0007 saved
+51:599  0:026  AddToBootOrder: Boot0007 at index 0
+51:614  0:014  BootOrder: 7: Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+51:878  0:264  SetVariable: BootOrder = Success
+51:903  0:025   8: Boot0007, Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+52:170  0:267  AddBootOptionForFile: done.
+52:185  0:014  Entry 0 assigned option D2D90007
+52:200  0:014  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Second, 1
+52:215  0:015  AddBootOption: Clover start boot.efi at Second
+52:230  0:015   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+52:256  0:026   BootIndex: 1
+52:272  0:015   Found BootNum: 0008
+52:287  0:015   Boot0008 saved
+52:302  0:014  AddToBootOrder: Boot0008 at index 1
+52:317  0:014  BootOrder: 8: Boot0007, Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+52:609  0:292  SetVariable: BootOrder = Success
+52:625  0:015   9: Boot0007, Boot0008, Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+52:921  0:296  AddBootOptionForFile: done.
+52:936  0:015  Entry 1 assigned option D2D90008
+52:962  0:025  
+AddBootOptionForFile: D4741898, \EFI\CLOVER\CLOVERX64.EFI, ShortDevPath
+ Clover start boot.efi at Recovery HD, 2
+52:982  0:020  AddBootOption: Clover start boot.efi at Recovery HD
+53:003  0:020   FilePath: HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+53:018  0:015   BootIndex: 2
+53:032  0:014   Found BootNum: 0009
+53:047  0:014   Boot0009 saved
+53:062  0:015  AddToBootOrder: Boot0009 at index 2
+53:088  0:025  BootOrder: 9: Boot0007, Boot0008, Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+53:408  0:320  SetVariable: BootOrder = Success
+53:423  0:014   10: Boot0007, Boot0008, Boot0009, Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+53:749  0:326  AddBootOptionForFile: done.
+53:765  0:015  Entry 2 assigned option D2D90009
+53:780  0:015  
+Boot options:
+-------------
+53:805  0:025  BootOrder: 10: Boot0007, Boot0008, Boot0009, Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+54:168  0:362   0) Boot0007: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+54:183  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:198  0:014      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+54:213  0:014   1) Boot0008: Clover start boot.efi at Second, Attr: 0x1
+54:228  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:243  0:015      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+54:269  0:026   2) Boot0009: Clover start boot.efi at Recovery HD, Attr: 0x1
+54:284  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:300  0:015      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+54:315  0:014   3) Boot0004: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+54:329  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:366  0:036      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+54:381  0:015   4) Boot0005: Clover start boot.efi at Second, Attr: 0x1
+54:396  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:410  0:014      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+54:425  0:014   5) Boot0006: Clover start boot.efi at Recovery HD, Attr: 0x1
+54:439  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:465  0:025      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+54:479  0:014   6) Boot0001: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+54:494  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:509  0:014      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+54:523  0:014   7) Boot0002: Clover start boot.efi at Second, Attr: 0x1
+54:549  0:025      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:564  0:014      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+54:578  0:014   8) Boot0003: Clover start boot.efi at Recovery HD, Attr: 0x1
+54:592  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+54:607  0:014      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+54:633  0:025   9) Boot0000: EFI Hard Drive, Attr: 0x1
+54:658  0:025      PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+54:673  0:014      Size: 68 (Attr:4 + FPl:2 + Desc:30 + FP:32 + Opt:0 = 68 -> OK)
+54:687  0:014  -------------
+54:702  0:014  ReinitSelfLib after theme change
+54:717  0:014  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+54:732  0:014  new SelfHandle=D4741898
+54:746  0:014  === [ ScanVolumes ] =============================
+54:761  0:014  Found 5 volumes with blockIO
+54:798  0:036  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+54:829  0:030          Result of bootcode detection: bootable unknown (legacy)
+54:844  0:015  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+54:874  0:029          Result of bootcode detection: bootable unknown (legacy)
+54:889  0:015          This is SelfVolume !!
+54:914  0:025  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+54:955  0:040          Result of bootcode detection: bootable unknown (legacy)
+54:970  0:014  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+55:000  0:030  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+55:030  0:029  found 1 handles with audio
+55:046  0:015  No AudioIoDevice stored
+55:072  0:025  no stored audio parameters
+55:086  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+55:101  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+55:117  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+55:132  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+55:146  0:014  theme inited
+55:161  0:015  Chosen theme tonymacx86
+55:187  0:025  after NVRAM boot-args=dart=0
+55:203  0:015  Scanning legacy ...
+55:218  0:015  === [ ScanLoader ] ==============================
+55:244  0:025  - [01]: 'EFI'
+55:308  0:064          AddLoaderEntry for Volume Name=EFI
+55:323  0:015          skipped because entry is hidden
+55:338  0:014  - [02]: 'Install macOS High Sierra'
+55:368  0:030          AddLoaderEntry for Volume Name=Install macOS High Sierra
+55:426  0:058  - [03]: 'Second'
+55:459  0:032          AddLoaderEntry for Volume Name=Second
+55:475  0:016      Check if volume Is Hibernated:
+55:490  0:014      Check sleep image 'by signature':
+55:523  0:032      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+55:548  0:024      using default sleep image name = \private\var\vm\sleepimage
+55:565  0:017      sleepimage not found -> Not Found
+55:580  0:015      hibernated: no - sign
+55:624  0:043  - [04]: 'Recovery HD'
+55:653  0:029          AddLoaderEntry for Volume Name=Recovery HD
+55:697  0:044  === [ AddCustomTool ] ===========================
+55:725  0:027  found tool \EFI\CLOVER\tools\Shell64U.efi
+55:752  0:027  Checking EFI partition Volume 1 for Clover
+55:767  0:015   Found Clover
+55:782  0:014  === [ GetEfiBootDeviceFromNvram ] ===============
+55:797  0:014   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+55:812  0:015  DefaultIndex=0 and MainMenu.Entries.size()=9
+69:866  14:053  exit from MainMenu 3
+69:893  0:027  
+Boot options:
+-------------
+69:908  0:015  BootOrder: 10: Boot0007, Boot0008, Boot0009, Boot0004, Boot0005, Boot0006, Boot0001, Boot0002, Boot0003, Boot0000
+70:258  0:349   0) Boot0007: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+70:273  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:288  0:015      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+70:303  0:014   1) Boot0008: Clover start boot.efi at Second, Attr: 0x1
+70:329  0:025      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:344  0:014      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+70:358  0:014   2) Boot0009: Clover start boot.efi at Recovery HD, Attr: 0x1
+70:373  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:388  0:015      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+70:414  0:025   3) Boot0004: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+70:428  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:443  0:014      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+70:468  0:025   4) Boot0005: Clover start boot.efi at Second, Attr: 0x1
+70:483  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:498  0:015      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+70:524  0:025   5) Boot0006: Clover start boot.efi at Recovery HD, Attr: 0x1
+70:539  0:015      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:554  0:015      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+70:569  0:014   6) Boot0001: Clover start boot.efi at Install macOS High Sierra, Attr: 0x1
+70:583  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:609  0:025      Size: 286 (Attr:4 + FPl:2 + Desc:102 + FP:102 + Opt:76 = 286 -> OK)
+70:624  0:014   7) Boot0002: Clover start boot.efi at Second, Attr: 0x1
+70:649  0:025      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:664  0:014      Size: 210 (Attr:4 + FPl:2 + Desc:64 + FP:102 + Opt:38 = 210 -> OK)
+70:679  0:014   8) Boot0003: Clover start boot.efi at Recovery HD, Attr: 0x1
+70:694  0:014      HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)\EFI\CLOVER\CLOVERX64.EFII
+70:719  0:025      Size: 230 (Attr:4 + FPl:2 + Desc:74 + FP:102 + Opt:48 = 230 -> OK)
+70:746  0:026   9) Boot0000: EFI Hard Drive, Attr: 0x1
+70:761  0:014      PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+70:775  0:014      Size: 68 (Attr:4 + FPl:2 + Desc:30 + FP:32 + Opt:0 = 68 -> OK)
+70:790  0:014  
+Boot options not in BootOrder list:
+70:921  0:130   not found
+70:935  0:014  -------------
+70:949  0:014  ReinitSelfLib after theme change
+70:965  0:015  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+70:991  0:026  new SelfHandle=D4741898
+71:005  0:014  === [ ScanVolumes ] =============================
+71:021  0:015  Found 5 volumes with blockIO
+71:036  0:015  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+71:065  0:029          Result of bootcode detection: bootable unknown (legacy)
+71:081  0:015  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+71:127  0:046          Result of bootcode detection: bootable unknown (legacy)
+71:148  0:020          This is SelfVolume !!
+71:163  0:015  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+71:193  0:029          Result of bootcode detection: bootable unknown (legacy)
+71:209  0:015  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+71:250  0:041  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+71:281  0:030  found 1 handles with audio
+71:296  0:014  No AudioIoDevice stored
+71:310  0:014  no stored audio parameters
+71:326  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+71:341  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+71:356  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+71:382  0:026  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+71:402  0:020  theme inited
+71:423  0:020  Chosen theme tonymacx86
+71:438  0:015  after NVRAM boot-args=dart=0
+71:453  0:014  Scanning legacy ...
+71:468  0:014  === [ ScanLoader ] ==============================
+71:483  0:015  - [01]: 'EFI'
+71:546  0:063          AddLoaderEntry for Volume Name=EFI
+71:561  0:014          skipped because entry is hidden
+71:587  0:026  - [02]: 'Install macOS High Sierra'
+71:617  0:030          AddLoaderEntry for Volume Name=Install macOS High Sierra
+71:687  0:069  - [03]: 'Second'
+71:719  0:032          AddLoaderEntry for Volume Name=Second
+71:735  0:016      Check if volume Is Hibernated:
+71:751  0:015      Check sleep image 'by signature':
+71:783  0:032      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+71:798  0:014      using default sleep image name = \private\var\vm\sleepimage
+71:816  0:017      sleepimage not found -> Not Found
+71:831  0:015      hibernated: no - sign
+71:886  0:055  - [04]: 'Recovery HD'
+71:916  0:030          AddLoaderEntry for Volume Name=Recovery HD
+71:961  0:044  === [ AddCustomTool ] ===========================
+71:976  0:015  found tool \EFI\CLOVER\tools\Shell64U.efi
+71:992  0:016  Checking EFI partition Volume 1 for Clover
+72:007  0:015   Found Clover
+72:023  0:015  === [ GetEfiBootDeviceFromNvram ] ===============
+72:037  0:014   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+72:063  0:025  DefaultIndex=0 and MainMenu.Entries.size()=9
+73:346  1:282  exit from MainMenu 2
+73:361  0:014  ConnectAll after refresh menu
+73:424  0:063  ReinitSelfLib after theme change
+73:439  0:014  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+73:464  0:025  new SelfHandle=D4741898
+73:480  0:015  === [ ScanVolumes ] =============================
+73:495  0:015  Found 5 volumes with blockIO
+73:510  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+73:540  0:030          Result of bootcode detection: bootable unknown (legacy)
+73:555  0:014  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+73:585  0:030          Result of bootcode detection: bootable unknown (legacy)
+73:611  0:026          This is SelfVolume !!
+73:626  0:014  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+73:657  0:030          Result of bootcode detection: bootable unknown (legacy)
+73:672  0:014  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+73:713  0:041  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+73:755  0:041  Searching volumes for latest nvram.plist ...
+73:796  0:041  loaded Status=Not Found
+73:812  0:015  PutNvramPlistToRtVars: nvram.plist not found
+73:827  0:015  found 1 handles with audio
+73:842  0:014  No AudioIoDevice stored
+73:856  0:014  no stored audio parameters
+73:872  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+73:887  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+73:902  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+73:928  0:026  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+73:943  0:014  theme inited
+73:958  0:014  Chosen theme tonymacx86
+73:983  0:025  after NVRAM boot-args=dart=0
+73:998  0:014  Scanning legacy ...
+74:012  0:014  === [ ScanLoader ] ==============================
+74:027  0:014  - [01]: 'EFI'
+74:090  0:062          AddLoaderEntry for Volume Name=EFI
+74:105  0:014          skipped because entry is hidden
+74:120  0:014  - [02]: 'Install macOS High Sierra'
+74:159  0:039          AddLoaderEntry for Volume Name=Install macOS High Sierra
+74:218  0:058  - [03]: 'Second'
+74:250  0:031          AddLoaderEntry for Volume Name=Second
+74:265  0:015      Check if volume Is Hibernated:
+74:280  0:014      Check sleep image 'by signature':
+74:302  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+74:317  0:014      using default sleep image name = \private\var\vm\sleepimage
+74:345  0:027      sleepimage not found -> Not Found
+74:371  0:026      hibernated: no - sign
+74:414  0:043  - [04]: 'Recovery HD'
+74:444  0:029          AddLoaderEntry for Volume Name=Recovery HD
+74:488  0:044  === [ AddCustomTool ] ===========================
+74:504  0:015  found tool \EFI\CLOVER\tools\Shell64U.efi
+74:520  0:015  Checking EFI partition Volume 1 for Clover
+74:535  0:015   Found Clover
+74:550  0:015  === [ GetEfiBootDeviceFromNvram ] ===============
+74:565  0:014   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+74:592  0:026  DefaultIndex=0 and MainMenu.Entries.size()=9
+84:146  9:554  exit from MainMenu 1
+91:430  7:283  EDITED: dart=0 -v
+93:266  1:835  ReinitSelfLib after theme change
+93:281  0:015  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+93:322  0:041  new SelfHandle=D4741898
+93:337  0:014  === [ ScanVolumes ] =============================
+93:352  0:015  Found 5 volumes with blockIO
+93:367  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+93:396  0:029          Result of bootcode detection: bootable unknown (legacy)
+93:411  0:014  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+93:441  0:029          Result of bootcode detection: bootable unknown (legacy)
+93:467  0:025          This is SelfVolume !!
+93:481  0:014  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+93:511  0:029          Result of bootcode detection: bootable unknown (legacy)
+93:526  0:015  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+93:556  0:029  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+93:607  0:051  found 1 handles with audio
+93:622  0:014  No AudioIoDevice stored
+93:637  0:014  no stored audio parameters
+93:652  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+93:667  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+93:682  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+93:697  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+93:711  0:014  theme inited
+93:737  0:025  Chosen theme tonymacx86
+93:752  0:014  after NVRAM boot-args=dart=0 -v 
+93:767  0:014  Scanning legacy ...
+93:782  0:015  === [ ScanLoader ] ==============================
+93:797  0:015  - [01]: 'EFI'
+93:859  0:062          AddLoaderEntry for Volume Name=EFI
+93:885  0:025          skipped because entry is hidden
+93:900  0:014  - [02]: 'Install macOS High Sierra'
+93:930  0:030          AddLoaderEntry for Volume Name=Install macOS High Sierra
+93:989  0:058  - [03]: 'Second'
+94:032  0:043          AddLoaderEntry for Volume Name=Second
+94:048  0:016      Check if volume Is Hibernated:
+94:063  0:014      Check sleep image 'by signature':
+94:097  0:033      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+94:112  0:014      using default sleep image name = \private\var\vm\sleepimage
+94:129  0:017      sleepimage not found -> Not Found
+94:144  0:014      hibernated: no - sign
+94:188  0:044  - [04]: 'Recovery HD'
+94:218  0:030          AddLoaderEntry for Volume Name=Recovery HD
+94:284  0:065  === [ AddCustomTool ] ===========================
+94:299  0:015  found tool \EFI\CLOVER\tools\Shell64U.efi
+94:316  0:016  Checking EFI partition Volume 1 for Clover
+94:330  0:014   Found Clover
+94:345  0:014  === [ GetEfiBootDeviceFromNvram ] ===============
+94:360  0:014   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+94:386  0:026  DefaultIndex=0 and MainMenu.Entries.size()=9
+101:886  7:500  exit from MainMenu 1
+101:902  0:015  ParseBootOption: invalid input params
+101:917  0:014  BootVariable of the entry is empty
+101:932  0:015  === [ StartLoader ] =============================
+101:947  0:014  Finally: ExternalClock=25MHz BusSpeed=99774kHz CPUFreq=2295MHz PIS: hw.busfrequency=100000000Hz
+101:977  0:029  start loader
+102:003  0:025  Loading boot.efi  status=Success
+102:152  0:149  GetOSVersion: 10.13.6 (17G66)
+102:182  0:030  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS
+102:197  0:014  Will not patch boot.efi
+102:212  0:014  === [ PatchSmbios ] =============================
+102:227  0:015  SmbiosTable: Type 2 (BaseBoard Information) not found, create new
+102:242  0:015  insert table 9 for dev 0:0
+102:257  0:014  insert table 9 for dev 0:1
+102:272  0:014  insert table 9 for dev 0:1
+102:287  0:015  Table 11 present, but rewritten for us
+102:314  0:026  Trusting SMBIOS...
+102:329  0:014  Detected alternating SMBIOS channel banks
+102:344  0:015  Channels: 2
+102:359  0:015  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+102:782  0:423   partNum=NOT AVAILABLE       
+102:797  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+102:812  0:015  BANK 0 DIMM0 1866MHz 4096MB(Ext:0MB)
+102:827  0:015   partNum=NOT AVAILABLE       
+102:842  0:014  SMBIOS Type 17 Index = 1 => 1 2:
+102:869  0:026  BANK 1 DIMM0 1866MHz 4096MB(Ext:0MB)
+102:884  0:015  mTotalSystemMemory = 8192
+102:899  0:014  NumberOfMemoryDevices = 2
+102:914  0:014  === [ PatchACPI ] ===============================
+102:929  0:015  Xsdt reallocation done
+102:955  0:026  old FADT length=F4
+102:970  0:014   SignatureFixup: 0xABCD -> 0x0
+102:985  0:014  Apply DsdtFixMask=0x00009051
+103:000  0:015     drop _DSM mask=0xFFFF
+103:015  0:015  === [ FixBiosDsdt ] =============================
+103:030  0:015    0 replacements
+103:056  0:025  Start HPET Fix
+103:072  0:015  Start Add Device HDEF
+103:087  0:015  PreCleanup XSDT: count=18, length=180
+103:101  0:014  PreCleanup XSDT, corrected XSDT: count=18, length=180
+103:117  0:015  === [ ACPIDropTables ] ==========================
+103:132  0:015    0 replacements
+103:146  0:014    0 replacements
+103:161  0:014    0 replacements
+103:176  0:015    0 replacements
+103:191  0:015    0 replacements
+103:206  0:014  ApicCPUNum=2
+103:231  0:025  Cleanup XSDT: count=18, length=180
+103:257  0:025  corrected XSDT count=18, length=180
+103:272  0:014  === [ RestSetup macOS ] =========================
+103:286  0:014  NVidia GFX injection not set
+103:301  0:015  stringlength = 1992
+103:328  0:026  CurrentMode: Width=1024 Height=768
+103:343  0:014  Beginning FSInjection
+103:358  0:015  Use origin smbios table type 1 guid.
+103:373  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+103:388  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+103:414  0:025  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10
+103:429  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10_normal
+103:444  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13
+103:458  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13_normal
+103:473  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13.6
+103:488  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13.6_normal
+103:530  0:041  Custom boot screen not used because entry has unset use graphics
+103:544  0:014  Closing log
+106:079  2:534  Legacy USB Off Done
+106:095  0:015  USB EHCI Ownership for device 1C2D value=1000001
+106:111  0:016  USB UHCI reset for device 3300
+106:126  0:015  Legacy USB Off Done
+106:142  0:015  USB EHCI Ownership for device 1C26 value=1000001
+0:100  0:100  MemLog inited, TSC freq: 2294788514
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x01508086
+0:100  0:000   Next Generation Core processors (PAM 0x80-0x86)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=33, 0x91=00) at chipset 01508086
+0:100  0:000  , Install = Success
+0:112  0:012  BiosVideoDriverBindingStart!
+0:112  0:000  BiosVideoCheckForVbe
+0:112  0:000  EdidOverride not found
+0:159  0:047   Edid1-
+0:206  0:047   Edid0-
+0:557  0:350   Edid1-
+0:908  0:351   Edid0-
+1:448  0:539   Edid1-
+1:988  0:539   Edid0-
+2:339  0:351   Edid1-
+2:690  0:350   Edid0-
+2:723  0:032     0 640x480 attr=BF - ok, 640x480, working, highest, pref=0
+2:725  0:002     1 800x600 attr=BF - ok, 800x600, working, highest, pref=1
+2:727  0:002     2 1024x768 attr=BF - ok, 1024x768, working, highest, pref=2
+2:730  0:002     3 1280x1024 attr=BF - ok
+2:733  0:003     4 1600x1200 attr=BF - ok
+2:737  0:003     5 1360x768 attr=BF - ok
+2:737  0:000  BV new mode: 2 1024x768
+2:899  0:162   SetMode pref 2 (2) = Success
+5:826  2:926  
+5:826  0:000  Now is 04.04.2020,  13:12:10 (GMT)
+5:826  0:000  Starting Clover revision: 5107 (HEAD, commit a3f3053c3) on CLOVER EFI
+5:826  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 10.14.6]
+5:826  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000) @D429DB98
+5:826  0:000  SelfDirPath = \EFI\CLOVER
+5:826  0:000  Clover : Image base = 0xD5226000
+6:665  0:838  SimpleTextEx Status=Success
+6:665  0:000  === [ Get Smbios ] ==============================
+6:665  0:000  Type 16 Index = 0
+6:665  0:000  Total Memory Slots Count = 2
+6:665  0:000  Type 17 Index = 0
+6:665  0:000  SmbiosTable.Type17->Speed = 1866MHz
+6:665  0:000  SmbiosTable.Type17->Size = 4096MB
+6:665  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  1 
+6:665  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+6:665  0:000  SmbiosTable.Type17->SerialNumber = 
+6:665  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+6:665  0:000  Type 17 Index = 1
+6:665  0:000  SmbiosTable.Type17->Speed = 1866MHz
+6:665  0:000  SmbiosTable.Type17->Size = 4096MB
+6:665  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  2 
+6:665  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+6:665  0:000  SmbiosTable.Type17->SerialNumber = 
+6:665  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+6:665  0:000  Boot status=0
+6:665  0:000  Running on: 'ProLiant MicroServer Gen8' with board ''
+6:665  0:000  === [ GetCPUProperties ] ========================
+6:665  0:000  CPU Vendor = 756E6547 Model=306A9
+6:665  0:000   The CPU supported SSE4.1
+6:665  0:000  BrandString = Intel(R) Celeron(R) CPU G1610T @ 2.30GHz
+6:665  0:000   The CPU not supported turbo
+6:665  0:000  MSR 0x35               20002
+6:665  0:000  MSR 0xE2 before patch 1E008400
+6:665  0:000  MSR 0xE2 is locked, PM patches will be turned on
+6:665  0:000  MSR 0xCE              00081010_E0011700
+6:665  0:000  MSR 0x1B0             00000000
+6:665  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+6:665  0:000  MaxDiv/MinDiv: 23.0/16
+6:665  0:000  Turbo: 23/23/23/23
+6:665  0:000  Features: 0xBFEBFBFF
+6:665  0:000  Threads: 2
+6:665  0:000  Cores: 2
+6:665  0:000  FSB: 100 MHz
+6:665  0:000  CPU: 2300 MHz
+6:665  0:000  TSC: 2300 MHz
+6:665  0:000  PIS: 100 MHz
+6:665  0:000  ExternalClock: 25 MHz
+6:665  0:000  === [ GetDevices ] ==============================
+6:665  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+6:665  0:000  PCI (00|00:00.00) : 8086 0150 class=060000
+6:665  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+6:665  0:000  PCI (00|07:00.00) : 10DE 1B82 class=030000
+6:665  0:000   - GOP: Provided by device
+6:665  0:000   - GFX: Model=Unknown family 134 (Pascal)
+6:665  0:000  PCI (00|07:00.01) : 10DE 10F0 class=040300
+6:665  0:000   - HDMI Audio: 
+6:665  0:000  PCI (00|00:06.00) : 8086 015D class=060400
+6:665  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+6:665  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+6:665  0:000  PCI (00|00:1C.04) : 8086 1C18 class=060400
+6:665  0:000  PCI (00|03:00.00) : 14E4 165F class=020000
+6:665  0:000   - LAN: 0 Vendor=Broadcom
+6:665  0:000  PCI (00|03:00.01) : 14E4 165F class=020000
+6:665  0:000   - LAN: 1 Vendor=Broadcom
+6:665  0:000  PCI (00|00:1C.06) : 8086 1C1C class=060400
+6:665  0:000  PCI (00|04:00.00) : 1912 0014 class=0C0330
+6:665  0:000  PCI (00|00:1C.07) : 8086 1C1E class=060400
+6:665  0:000  PCI (00|01:00.00) : 103C 3306 class=088000
+6:665  0:000  PCI (00|01:00.02) : 103C 3307 class=088000
+6:665  0:000  PCI (00|01:00.04) : 103C 3300 class=0C0300
+6:665  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+6:665  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+6:665  0:000  PCI (00|00:1F.00) : 8086 1C54 class=060100
+6:665  0:000  PCI (00|00:1F.02) : 8086 1C02 class=010601
+6:665  0:000  === [ GetDefaultSettings ] ======================
+6:665  0:000  Clover load options size = 0 bytes
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8-2300. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\. 'config.plist' not exists in dir
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\-2300. Dir not exists
+6:666  0:000  set OEMPath by default: EFI\CLOVER
+6:668  0:002  EFI\CLOVER\config.plist loaded: Success
+6:668  0:000  === [ GetListOfThemes ] =========================
+6:668  0:000  - [00]: embedded
+6:669  0:000  - [00]: random
+6:669  0:000  - [00]: tonymacx86
+6:670  0:000  === [ Found config plists ] =====================
+6:670  0:000  - config.plist
+6:671  0:001  === [ GetEarlyUserSettings ] ====================
+6:671  0:000  timeout set to 3
+6:671  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+6:699  0:028  Default theme: tonymacx86
+6:714  0:014  Hiding entries with string Windows
+6:729  0:014  Hiding entries with string BOOTX64.EFI
+6:744  0:014  === [ LoadDrivers ] =============================
+6:759  0:014  Loading ApfsDriverLoader.efi  status=Success
+6:805  0:046   - driver needs connecting
+6:830  0:024  Loading AudioDxe.efi  status=Success
+6:886  0:055   - driver needs connecting
+6:901  0:014  Loading FSInject.efi  status=Success
+6:946  0:045  Loading VirtualSmc.efi  status=Success
+7:091  0:145  Loading XhciDxe.efi  status=Success
+7:136  0:044   - driver needs connecting
+7:151  0:015  3 drivers needs connecting ...
+7:166  0:014  PlatformDriverOverrideProtocol->GetDriver overriden
+7:186  0:020  APFS driver loaded
+9:072  1:886  === [ InitScreen ] ==============================
+9:087  0:015  Console modes reported: 4, available modes:
+9:113  0:025   - [01]: 80x25
+9:128  0:015   - [03]: 100x31
+9:143  0:014   - [04]: 128x40 (current mode)
+9:158  0:014  SetScreenResolution: 1920x1080 - not found!
+9:188  0:030  SetScreenResolution: 1024x768 - already set
+9:218  0:030  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+9:233  0:014  new SelfHandle=D429DB98
+9:250  0:016  Using embedded font: Success
+9:267  0:017  === [ GetMacAddress ] ===========================
+9:293  0:026  === [ ScanSPD ] =================================
+9:309  0:015  === [ GetAcpiTablesList ] =======================
+9:329  0:020  Get Acpi Tables List from RSDT:
+9:365  0:035   - [00]: FACP  ProLiant len=116
+9:391  0:026   - [01]: SPCR  SPCRRBSU len=80
+9:406  0:014   - [02]: MCFG  ProLiant len=60
+9:422  0:015   - [03]: HPET  ProLiant len=56
+9:437  0:015   - [04]: FFFF  ProLiant len=100
+9:452  0:014   - [05]: SPMI  ProLiant len=64
+9:467  0:014   - [06]: ERST  ProLiant len=560
+9:493  0:026   - [07]: APIC  ProLiant len=594
+9:508  0:014   - [08]: FFFF  ProLiant len=374
+9:523  0:014   - [09]: BERT  ProLiant len=48
+9:538  0:015   - [10]: HEST  ProLiant len=188
+9:553  0:015   - [11]: FFFF  ProLiant len=6420
+9:568  0:014   - [12]: FFFF  ProLiant len=45
+9:583  0:014   - [13]: SSDT  CRSPCI0 len=311
+9:598  0:015   - [14]: SSDT  riser0 len=375
+9:623  0:025   - [15]: SSDT  pcc len=481
+9:638  0:014   - [16]: SSDT  pmab len=887
+9:653  0:014   - [17]: SSDT  PPM RCM  len=1148
+9:668  0:015  Calibrated TSC Frequency = 2294788514 = 2294MHz
+9:695  0:026  === [ GetUserSettings ] =========================
+9:709  0:014  USB FixOwnership: yes
+9:724  0:014  Dropping 1 tables:
+9:739  0:014   - [00]: Drop table  signature="MATS" (5354414D)
+9:859  0:119           - set table: 5354414D,                0 to drop: no
+9:899  0:040   - final DSDT Fix mask=00009051
+9:914  0:015  Using ProductName from clover: iMac13,2
+9:929  0:015  BiosVersion: not set, Using BiosVersion from clover
+9:944  0:014  BiosVersion: IM131.88Z.F000.B00.2002052050
+9:970  0:025  BiosReleaseDate: 02/05/2020
+9:985  0:015  Using EfiVersion from clover: 290.0.0.0.0
+10:000  0:014  Using FirmwareFeatures from clover: 0xE00DE137
+10:014  0:014  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+10:029  0:015  Using PlatformFeature from clover: 0x1
+10:045  0:015  === [ Found DSDT tables ] =======================
+10:060  0:014  === [ ScanVolumes ] =============================
+10:075  0:014  Found 8 volumes with blockIO
+10:090  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x2,0x0)
+10:144  0:054          Result of bootcode detection: bootable unknown (legacy)
+10:159  0:015  - [01]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x2,0x0)\HD(1,GPT,9DB24B83-2806-4AD5-A543-D94FE369AF48,0x28,0x64000)
+10:223  0:063          Result of bootcode detection: bootable unknown (legacy)
+10:238  0:015  - [02]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x2,0x0)\HD(2,GPT,4A1BC17B-AB81-4A2C-BE8D-F9998D37BCF6,0x64028,0x1D08BB0)
+10:326  0:087  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+10:356  0:030          Result of bootcode detection: bootable unknown (legacy)
+10:371  0:014  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+10:401  0:030          Result of bootcode detection: bootable unknown (legacy)
+10:416  0:014          This is SelfVolume !!
+10:431  0:014  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+10:472  0:041          Result of bootcode detection: bootable unknown (legacy)
+10:488  0:015  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+10:530  0:041  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+10:561  0:031  Searching volumes for latest nvram.plist ...
+10:603  0:041  loaded Status=Not Found
+10:618  0:015  PutNvramPlistToRtVars: nvram.plist not found
+10:633  0:014  found 1 handles with audio
+10:648  0:014  No AudioIoDevice stored
+10:663  0:015  no stored audio parameters
+10:678  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+10:693  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+10:708  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+10:723  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+10:739  0:015  === [ InitTheme ] ===============================
+10:765  0:026  use daylight theme
+10:781  0:016  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+10:808  0:026  file sound read: sound.wav Not Found
+10:823  0:015  Loading font from ThemeDir: Error
+10:840  0:017  theme inited
+10:855  0:014  Chosen theme tonymacx86
+10:869  0:014  after NVRAM boot-args=dart=0
+10:885  0:015  Scanning legacy ...
+10:900  0:015  === [ Dump SMC keys from NVRAM ] ================
+10:914  0:014  found AppleSMC protocol
+10:940  0:025  === [ ScanLoader ] ==============================
+10:955  0:015  - [01]: 'EFI'
+11:155  0:199          AddLoaderEntry for Volume Name=EFI
+11:170  0:015          skipped because entry is hidden
+11:185  0:014  - [02]: 'Install macOS Sierra'
+11:249  0:063          AddLoaderEntry for Volume Name=Install macOS Sierra
+11:341  0:091  - [04]: 'EFI'
+11:403  0:062          AddLoaderEntry for Volume Name=EFI
+11:418  0:014          skipped because entry is hidden
+11:433  0:015  - [05]: 'Install macOS High Sierra'
+11:474  0:041          AddLoaderEntry for Volume Name=Install macOS High Sierra
+11:536  0:061  - [06]: 'Second'
+11:570  0:033          AddLoaderEntry for Volume Name=Second
+11:586  0:016      Check if volume Is Hibernated:
+11:601  0:015      Check sleep image 'by signature':
+11:623  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+11:638  0:014      using default sleep image name = \private\var\vm\sleepimage
+11:656  0:017      sleepimage not found -> Not Found
+11:682  0:025      hibernated: no - sign
+11:738  0:056  - [07]: 'Recovery HD'
+11:768  0:029          AddLoaderEntry for Volume Name=Recovery HD
+11:815  0:046  === [ AddCustomTool ] ===========================
+11:831  0:016  found tool \EFI\CLOVER\tools\Shell64U.efi
+11:847  0:015  Checking EFI partition Volume 1 for Clover
+11:861  0:014  Checking EFI partition Volume 4 for Clover
+11:876  0:014   Found Clover
+11:894  0:018  === [ GetEfiBootDeviceFromNvram ] ===============
+11:920  0:025   - found entry 1. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+11:935  0:015  DefaultIndex=1 and MainMenu.Entries.size()=10
+12:194  0:259  GUI ready
+22:385  10:191  exit from MainMenu 1
+33:450  11:065  EDITED: dart=0 
+46:260  12:810  EDITED: -v dart=0 
+47:935  1:675  ReinitSelfLib after theme change
+47:967  0:031  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+47:987  0:020  new SelfHandle=D429DB98
+48:002  0:015  === [ ScanVolumes ] =============================
+48:017  0:014  Found 8 volumes with blockIO
+48:031  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x2,0x0)
+48:075  0:043          Result of bootcode detection: bootable unknown (legacy)
+48:090  0:014  - [01]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x2,0x0)\HD(1,GPT,9DB24B83-2806-4AD5-A543-D94FE369AF48,0x28,0x64000)
+48:142  0:052          Result of bootcode detection: bootable unknown (legacy)
+48:157  0:014  - [02]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x2,0x0)\HD(2,GPT,4A1BC17B-AB81-4A2C-BE8D-F9998D37BCF6,0x64028,0x1D08BB0)
+48:199  0:041  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+48:229  0:030          Result of bootcode detection: bootable unknown (legacy)
+48:254  0:025  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+48:295  0:040          Result of bootcode detection: bootable unknown (legacy)
+48:310  0:015          This is SelfVolume !!
+48:324  0:014  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+48:355  0:030          Result of bootcode detection: bootable unknown (legacy)
+48:370  0:015  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+48:412  0:041  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+48:442  0:030  found 1 handles with audio
+48:457  0:014  No AudioIoDevice stored
+48:472  0:015  no stored audio parameters
+48:487  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+48:502  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+48:528  0:025  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+48:548  0:020  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+48:568  0:020  theme inited
+48:584  0:015  Chosen theme tonymacx86
+48:598  0:014  after NVRAM boot-args=-v dart=0  
+48:613  0:014  Scanning legacy ...
+48:629  0:015  === [ ScanLoader ] ==============================
+48:644  0:015  - [01]: 'EFI'
+48:703  0:058          AddLoaderEntry for Volume Name=EFI
+48:730  0:026          skipped because entry is hidden
+48:756  0:026  - [02]: 'Install macOS Sierra'
+48:786  0:029          AddLoaderEntry for Volume Name=Install macOS Sierra
+48:831  0:044  - [04]: 'EFI'
+48:892  0:061          AddLoaderEntry for Volume Name=EFI
+48:907  0:015          skipped because entry is hidden
+48:933  0:025  - [05]: 'Install macOS High Sierra'
+48:963  0:029          AddLoaderEntry for Volume Name=Install macOS High Sierra
+49:022  0:059  - [06]: 'Second'
+49:054  0:032          AddLoaderEntry for Volume Name=Second
+49:082  0:027      Check if volume Is Hibernated:
+49:097  0:015      Check sleep image 'by signature':
+49:119  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+49:134  0:014      using default sleep image name = \private\var\vm\sleepimage
+49:152  0:017      sleepimage not found -> Not Found
+49:167  0:015      hibernated: no - sign
+49:211  0:043  - [07]: 'Recovery HD'
+49:241  0:029          AddLoaderEntry for Volume Name=Recovery HD
+49:285  0:044  === [ AddCustomTool ] ===========================
+49:323  0:037  found tool \EFI\CLOVER\tools\Shell64U.efi
+49:339  0:016  Checking EFI partition Volume 1 for Clover
+49:354  0:014  Checking EFI partition Volume 4 for Clover
+49:369  0:015   Found Clover
+49:384  0:015  === [ GetEfiBootDeviceFromNvram ] ===============
+49:399  0:014   - found entry 1. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+49:425  0:025  DefaultIndex=1 and MainMenu.Entries.size()=10
+53:346  3:920  exit from MainMenu 1
+53:361  0:015  ParseBootOption: invalid input params
+53:376  0:014  BootVariable of the entry is empty
+53:391  0:015  === [ StartLoader ] =============================
+53:406  0:014  Finally: ExternalClock=25MHz BusSpeed=99774kHz CPUFreq=2295MHz PIS: hw.busfrequency=100000000Hz
+53:436  0:029  start loader
+53:451  0:014  Loading boot.efi  status=Success
+55:214  1:762  GetOSVersion: 10.12.6 (16G29)
+55:244  0:029  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS
+55:259  0:015  Will not patch boot.efi
+55:285  0:026  === [ PatchSmbios ] =============================
+55:300  0:014  SmbiosTable: Type 2 (BaseBoard Information) not found, create new
+55:316  0:015  insert table 9 for dev 0:0
+55:331  0:015  insert table 9 for dev 0:1
+55:346  0:014  insert table 9 for dev 0:1
+55:361  0:014  Table 11 present, but rewritten for us
+55:388  0:027  Trusting SMBIOS...
+55:403  0:015  Detected alternating SMBIOS channel banks
+55:419  0:015  Channels: 2
+55:434  0:015  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+55:848  0:413   partNum=NOT AVAILABLE       
+55:863  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+55:878  0:014  BANK 0 DIMM0 1866MHz 4096MB(Ext:0MB)
+55:893  0:015   partNum=NOT AVAILABLE       
+55:908  0:015  SMBIOS Type 17 Index = 1 => 1 2:
+55:923  0:014  BANK 1 DIMM0 1866MHz 4096MB(Ext:0MB)
+55:949  0:025  mTotalSystemMemory = 8192
+55:964  0:015  NumberOfMemoryDevices = 2
+55:978  0:014  === [ PatchACPI ] ===============================
+55:993  0:014  Xsdt reallocation done
+56:018  0:025  old FADT length=F4
+56:033  0:015   SignatureFixup: 0xABCD -> 0x0
+56:048  0:014  Apply DsdtFixMask=0x00009051
+56:063  0:014     drop _DSM mask=0xFFFF
+56:089  0:026  === [ FixBiosDsdt ] =============================
+56:104  0:015    0 replacements
+56:119  0:014  Start HPET Fix
+56:134  0:014  Start Add Device HDEF
+56:160  0:026  PreCleanup XSDT: count=18, length=180
+56:175  0:014  PreCleanup XSDT, corrected XSDT: count=18, length=180
+56:189  0:014  === [ ACPIDropTables ] ==========================
+56:204  0:015    0 replacements
+56:219  0:014    0 replacements
+56:234  0:014    0 replacements
+56:249  0:014    0 replacements
+56:264  0:015    0 replacements
+56:279  0:015  ApicCPUNum=2
+56:305  0:025  Cleanup XSDT: count=18, length=180
+56:320  0:014  corrected XSDT count=18, length=180
+56:346  0:026  === [ RestSetup macOS ] =========================
+56:361  0:014  NVidia GFX injection not set
+56:376  0:015  stringlength = 1992
+56:391  0:015  CurrentMode: Width=1024 Height=768
+56:406  0:015  Beginning FSInjection
+56:447  0:040  Use origin smbios table type 1 guid.
+56:462  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+56:477  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+56:493  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10
+56:519  0:026  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10_install
+56:534  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12
+56:549  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12_install
+56:564  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12.6
+56:579  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12.6_install
+56:605  0:026  Custom boot screen not used because entry has unset use graphics
+56:631  0:026  Closing log
+0:100  0:100  MemLog inited, TSC freq: 2294791845
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x01508086
+0:100  0:000   Next Generation Core processors (PAM 0x80-0x86)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=33, 0x91=00) at chipset 01508086
+0:100  0:000  , Install = Success
+0:112  0:012  BiosVideoDriverBindingStart!
+0:112  0:000  BiosVideoCheckForVbe
+0:112  0:000  EdidOverride not found
+0:159  0:047   Edid1-
+0:206  0:047   Edid0-
+0:557  0:350   Edid1-
+0:908  0:350   Edid0-
+1:448  0:539   Edid1-
+1:988  0:539   Edid0-
+2:339  0:350   Edid1-
+2:690  0:351   Edid0-
+2:723  0:032     0 640x480 attr=BF - ok, 640x480, working, highest, pref=0
+2:725  0:002     1 800x600 attr=BF - ok, 800x600, working, highest, pref=1
+2:727  0:002     2 1024x768 attr=BF - ok, 1024x768, working, highest, pref=2
+2:730  0:002     3 1280x1024 attr=BF - ok
+2:733  0:003     4 1600x1200 attr=BF - ok
+2:737  0:003     5 1360x768 attr=BF - ok
+2:737  0:000  BV new mode: 2 1024x768
+2:903  0:165   SetMode pref 2 (2) = Success
+5:826  2:923  
+5:826  0:000  Now is 04.04.2020,  13:15:24 (GMT)
+5:826  0:000  Starting Clover revision: 5107 (HEAD, commit a3f3053c3) on CLOVER EFI
+5:826  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 10.14.6]
+5:826  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000) @D4295D18
+5:826  0:000  SelfDirPath = \EFI\CLOVER
+5:826  0:000  Clover : Image base = 0xD5226000
+6:665  0:838  SimpleTextEx Status=Success
+6:665  0:000  === [ Get Smbios ] ==============================
+6:665  0:000  Type 16 Index = 0
+6:665  0:000  Total Memory Slots Count = 2
+6:665  0:000  Type 17 Index = 0
+6:665  0:000  SmbiosTable.Type17->Speed = 1866MHz
+6:665  0:000  SmbiosTable.Type17->Size = 4096MB
+6:665  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  1 
+6:665  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+6:665  0:000  SmbiosTable.Type17->SerialNumber = 
+6:665  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+6:665  0:000  Type 17 Index = 1
+6:665  0:000  SmbiosTable.Type17->Speed = 1866MHz
+6:665  0:000  SmbiosTable.Type17->Size = 4096MB
+6:665  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  2 
+6:665  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+6:665  0:000  SmbiosTable.Type17->SerialNumber = 
+6:665  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+6:665  0:000  Boot status=0
+6:665  0:000  Running on: 'ProLiant MicroServer Gen8' with board ''
+6:665  0:000  === [ GetCPUProperties ] ========================
+6:665  0:000  CPU Vendor = 756E6547 Model=306A9
+6:665  0:000   The CPU supported SSE4.1
+6:665  0:000  BrandString = Intel(R) Celeron(R) CPU G1610T @ 2.30GHz
+6:665  0:000   The CPU not supported turbo
+6:665  0:000  MSR 0x35               20002
+6:665  0:000  MSR 0xE2 before patch 1E008400
+6:665  0:000  MSR 0xE2 is locked, PM patches will be turned on
+6:665  0:000  MSR 0xCE              00081010_E0011700
+6:665  0:000  MSR 0x1B0             00000000
+6:665  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+6:665  0:000  MaxDiv/MinDiv: 23.0/16
+6:665  0:000  Turbo: 23/23/23/23
+6:665  0:000  Features: 0xBFEBFBFF
+6:665  0:000  Threads: 2
+6:665  0:000  Cores: 2
+6:665  0:000  FSB: 100 MHz
+6:665  0:000  CPU: 2300 MHz
+6:665  0:000  TSC: 2300 MHz
+6:665  0:000  PIS: 100 MHz
+6:665  0:000  ExternalClock: 25 MHz
+6:665  0:000  === [ GetDevices ] ==============================
+6:665  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+6:665  0:000  PCI (00|00:00.00) : 8086 0150 class=060000
+6:665  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+6:665  0:000  PCI (00|07:00.00) : 10DE 1B82 class=030000
+6:665  0:000   - GOP: Provided by device
+6:665  0:000   - GFX: Model=Unknown family 134 (Pascal)
+6:665  0:000  PCI (00|07:00.01) : 10DE 10F0 class=040300
+6:665  0:000   - HDMI Audio: 
+6:665  0:000  PCI (00|00:06.00) : 8086 015D class=060400
+6:665  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+6:665  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+6:665  0:000  PCI (00|00:1C.04) : 8086 1C18 class=060400
+6:665  0:000  PCI (00|03:00.00) : 14E4 165F class=020000
+6:665  0:000   - LAN: 0 Vendor=Broadcom
+6:665  0:000  PCI (00|03:00.01) : 14E4 165F class=020000
+6:665  0:000   - LAN: 1 Vendor=Broadcom
+6:665  0:000  PCI (00|00:1C.06) : 8086 1C1C class=060400
+6:665  0:000  PCI (00|04:00.00) : 1912 0014 class=0C0330
+6:665  0:000  PCI (00|00:1C.07) : 8086 1C1E class=060400
+6:665  0:000  PCI (00|01:00.00) : 103C 3306 class=088000
+6:665  0:000  PCI (00|01:00.02) : 103C 3307 class=088000
+6:665  0:000  PCI (00|01:00.04) : 103C 3300 class=0C0300
+6:665  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+6:665  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+6:665  0:000  PCI (00|00:1F.00) : 8086 1C54 class=060100
+6:665  0:000  PCI (00|00:1F.02) : 8086 1C02 class=010601
+6:665  0:000  === [ GetDefaultSettings ] ======================
+6:665  0:000  Clover load options size = 0 bytes
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8-2300. Dir not exists
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\. 'config.plist' not exists in dir
+6:666  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\-2300. Dir not exists
+6:666  0:000  set OEMPath by default: EFI\CLOVER
+6:668  0:002  EFI\CLOVER\config.plist loaded: Success
+6:668  0:000  === [ GetListOfThemes ] =========================
+6:668  0:000  - [00]: embedded
+6:669  0:000  - [00]: random
+6:669  0:000  - [00]: tonymacx86
+6:670  0:000  === [ Found config plists ] =====================
+6:670  0:000  - config.plist
+6:671  0:001  === [ GetEarlyUserSettings ] ====================
+6:671  0:000  timeout set to 3
+6:671  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+6:699  0:028  Default theme: tonymacx86
+6:715  0:015  Hiding entries with string Windows
+6:730  0:015  Hiding entries with string BOOTX64.EFI
+6:745  0:014  === [ LoadDrivers ] =============================
+6:771  0:025  Loading ApfsDriverLoader.efi  status=Success
+6:817  0:046   - driver needs connecting
+6:833  0:015  Loading AudioDxe.efi  status=Success
+6:878  0:045   - driver needs connecting
+6:898  0:020  Loading FSInject.efi  status=Success
+6:950  0:051  Loading VirtualSmc.efi  status=Success
+7:096  0:146  Loading XhciDxe.efi  status=Success
+7:140  0:044   - driver needs connecting
+7:156  0:015  3 drivers needs connecting ...
+7:171  0:014  PlatformDriverOverrideProtocol->GetDriver overriden
+7:196  0:025  APFS driver loaded
+9:080  1:883  === [ InitScreen ] ==============================
+9:095  0:014  Console modes reported: 4, available modes:
+9:110  0:014   - [01]: 80x25
+9:125  0:015   - [03]: 100x31
+9:151  0:025   - [04]: 128x40 (current mode)
+9:165  0:014  SetScreenResolution: 1920x1080 - not found!
+9:195  0:029  SetScreenResolution: 1024x768 - already set
+9:225  0:029  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+9:251  0:025  new SelfHandle=D4295D18
+9:267  0:016  Using embedded font: Success
+9:284  0:016  === [ GetMacAddress ] ===========================
+9:299  0:014  === [ ScanSPD ] =================================
+9:314  0:015  === [ GetAcpiTablesList ] =======================
+9:329  0:015  Get Acpi Tables List from RSDT:
+9:370  0:041   - [00]: FACP  ProLiant len=116
+9:386  0:015   - [01]: SPCR  SPCRRBSU len=80
+9:401  0:015   - [02]: MCFG  ProLiant len=60
+9:416  0:014   - [03]: HPET  ProLiant len=56
+9:458  0:042   - [04]: FFFF  ProLiant len=100
+9:473  0:015   - [05]: SPMI  ProLiant len=64
+9:488  0:014   - [06]: ERST  ProLiant len=560
+9:503  0:014   - [07]: APIC  ProLiant len=594
+9:518  0:015   - [08]: FFFF  ProLiant len=374
+9:534  0:015   - [09]: BERT  ProLiant len=48
+9:549  0:014   - [10]: HEST  ProLiant len=188
+9:563  0:014   - [11]: FFFF  ProLiant len=6420
+9:579  0:015   - [12]: FFFF  ProLiant len=45
+9:594  0:015   - [13]: SSDT  CRSPCI0 len=311
+9:609  0:014   - [14]: SSDT  riser0 len=375
+9:635  0:025   - [15]: SSDT  pcc len=481
+9:650  0:015   - [16]: SSDT  pmab len=887
+9:665  0:014   - [17]: SSDT  PPM RCM  len=1148
+9:680  0:014  Calibrated TSC Frequency = 2294791845 = 2294MHz
+9:696  0:015  === [ GetUserSettings ] =========================
+9:721  0:025  USB FixOwnership: yes
+9:736  0:015  Dropping 1 tables:
+9:751  0:015   - [00]: Drop table  signature="MATS" (5354414D)
+9:869  0:117           - set table: 5354414D,                0 to drop: no
+9:898  0:028   - final DSDT Fix mask=00009051
+9:923  0:025  Using ProductName from clover: iMac13,2
+9:938  0:014  BiosVersion: not set, Using BiosVersion from clover
+9:952  0:014  BiosVersion: IM131.88Z.F000.B00.2002052050
+9:978  0:025  BiosReleaseDate: 02/05/2020
+9:993  0:015  Using EfiVersion from clover: 290.0.0.0.0
+10:008  0:014  Using FirmwareFeatures from clover: 0xE00DE137
+10:022  0:014  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+10:037  0:015  Using PlatformFeature from clover: 0x1
+10:053  0:015  === [ Found DSDT tables ] =======================
+10:079  0:025  === [ ScanVolumes ] =============================
+10:095  0:015  Found 8 volumes with blockIO
+10:110  0:015  - [00]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x0,0x0)
+10:153  0:043          Result of bootcode detection: bootable unknown (legacy)
+10:179  0:025  - [01]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x0,0x0)\HD(1,GPT,9DB24B83-2806-4AD5-A543-D94FE369AF48,0x28,0x64000)
+10:220  0:040          Result of bootcode detection: bootable unknown (legacy)
+10:245  0:025  - [02]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x0,0x0)\HD(2,GPT,4A1BC17B-AB81-4A2C-BE8D-F9998D37BCF6,0x64028,0x1D08BB0)
+10:334  0:088  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+10:364  0:029          Result of bootcode detection: bootable unknown (legacy)
+10:378  0:014  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+10:408  0:029          Result of bootcode detection: bootable unknown (legacy)
+10:434  0:025          This is SelfVolume !!
+10:449  0:015  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+10:479  0:029          Result of bootcode detection: bootable unknown (legacy)
+10:495  0:016  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+10:526  0:031  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+10:568  0:041  Searching volumes for latest nvram.plist ...
+10:603  0:034  loaded Status=Not Found
+10:623  0:020  PutNvramPlistToRtVars: nvram.plist not found
+10:639  0:015  found 1 handles with audio
+10:653  0:014  No AudioIoDevice stored
+10:668  0:014  no stored audio parameters
+10:683  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+10:698  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+10:724  0:025  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+10:739  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+10:754  0:015  === [ InitTheme ] ===============================
+10:769  0:014  use daylight theme
+10:785  0:015  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+10:801  0:016  file sound read: sound.wav Not Found
+10:816  0:015  Loading font from ThemeDir: Error
+10:833  0:016  theme inited
+10:847  0:014  Chosen theme tonymacx86
+10:877  0:030  after NVRAM boot-args=dart=0
+10:897  0:019  Scanning legacy ...
+10:912  0:014  === [ Dump SMC keys from NVRAM ] ================
+10:926  0:014  found AppleSMC protocol
+10:941  0:014  === [ ScanLoader ] ==============================
+10:956  0:014  - [01]: 'EFI'
+11:155  0:199          AddLoaderEntry for Volume Name=EFI
+11:170  0:014          skipped because entry is hidden
+11:196  0:026  - [02]: 'Install macOS Sierra'
+11:249  0:052          AddLoaderEntry for Volume Name=Install macOS Sierra
+11:340  0:091  - [04]: 'EFI'
+11:402  0:061          AddLoaderEntry for Volume Name=EFI
+11:416  0:014          skipped because entry is hidden
+11:431  0:014  - [05]: 'Install macOS High Sierra'
+11:471  0:040          AddLoaderEntry for Volume Name=Install macOS High Sierra
+11:532  0:061  - [06]: 'Second'
+11:567  0:034          AddLoaderEntry for Volume Name=Second
+11:583  0:015      Check if volume Is Hibernated:
+11:597  0:014      Check sleep image 'by signature':
+11:619  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+11:644  0:025      using default sleep image name = \private\var\vm\sleepimage
+11:662  0:017      sleepimage not found -> Not Found
+11:676  0:014      hibernated: no - sign
+11:721  0:044  - [07]: 'Recovery HD'
+11:750  0:029          AddLoaderEntry for Volume Name=Recovery HD
+11:796  0:046  === [ AddCustomTool ] ===========================
+11:812  0:016  found tool \EFI\CLOVER\tools\Shell64U.efi
+11:828  0:015  Checking EFI partition Volume 1 for Clover
+11:870  0:042  Checking EFI partition Volume 4 for Clover
+11:886  0:015   Found Clover
+11:904  0:018  === [ GetEfiBootDeviceFromNvram ] ===============
+11:919  0:014   - found entry 1. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+11:934  0:015  DefaultIndex=1 and MainMenu.Entries.size()=10
+12:203  0:269  GUI ready
+22:915  10:712  exit from MainMenu 1
+30:520  7:604  EDITED: dart=0 -v
+31:375  0:855  ReinitSelfLib after theme change
+31:390  0:014  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+31:404  0:014  new SelfHandle=D4295D18
+31:420  0:015  === [ ScanVolumes ] =============================
+31:435  0:015  Found 8 volumes with blockIO
+31:450  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x0,0x0)
+31:516  0:066          Result of bootcode detection: bootable unknown (legacy)
+31:531  0:014  - [01]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x0,0x0)\HD(1,GPT,9DB24B83-2806-4AD5-A543-D94FE369AF48,0x28,0x64000)
+31:572  0:041          Result of bootcode detection: bootable unknown (legacy)
+31:588  0:015  - [02]: Volume: PcieRoot(0x0)\Pci(0x1A,0x0)\USB(0x0,0x0)\USB(0x0,0x0)\HD(2,GPT,4A1BC17B-AB81-4A2C-BE8D-F9998D37BCF6,0x64028,0x1D08BB0)
+31:629  0:041  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+31:670  0:041          Result of bootcode detection: bootable unknown (legacy)
+31:685  0:014  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+31:715  0:030          Result of bootcode detection: bootable unknown (legacy)
+31:730  0:014          This is SelfVolume !!
+31:745  0:014  - [05]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+31:787  0:041          Result of bootcode detection: bootable unknown (legacy)
+31:807  0:020  - [06]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+31:844  0:036  - [07]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+31:874  0:030  found 1 handles with audio
+31:889  0:015  No AudioIoDevice stored
+31:904  0:015  no stored audio parameters
+31:931  0:026  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+31:947  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+31:962  0:015  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+31:977  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+31:992  0:014  theme inited
+32:007  0:015  Chosen theme tonymacx86
+32:022  0:015  after NVRAM boot-args=dart=0 -v 
+32:037  0:014  Scanning legacy ...
+32:052  0:014  === [ ScanLoader ] ==============================
+32:082  0:030  - [01]: 'EFI'
+32:147  0:064          AddLoaderEntry for Volume Name=EFI
+32:161  0:014          skipped because entry is hidden
+32:187  0:025  - [02]: 'Install macOS Sierra'
+32:217  0:030          AddLoaderEntry for Volume Name=Install macOS Sierra
+32:261  0:044  - [04]: 'EFI'
+32:322  0:061          AddLoaderEntry for Volume Name=EFI
+32:338  0:015          skipped because entry is hidden
+32:352  0:014  - [05]: 'Install macOS High Sierra'
+32:382  0:029          AddLoaderEntry for Volume Name=Install macOS High Sierra
+32:452  0:069  - [06]: 'Second'
+32:484  0:032          AddLoaderEntry for Volume Name=Second
+32:511  0:027      Check if volume Is Hibernated:
+32:526  0:014      Check sleep image 'by signature':
+32:548  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+32:563  0:015      using default sleep image name = \private\var\vm\sleepimage
+32:581  0:017      sleepimage not found -> Not Found
+32:596  0:014      hibernated: no - sign
+32:655  0:059  - [07]: 'Recovery HD'
+32:684  0:029          AddLoaderEntry for Volume Name=Recovery HD
+32:729  0:044  === [ AddCustomTool ] ===========================
+32:745  0:015  found tool \EFI\CLOVER\tools\Shell64U.efi
+32:760  0:015  Checking EFI partition Volume 1 for Clover
+32:775  0:014  Checking EFI partition Volume 4 for Clover
+32:790  0:015   Found Clover
+32:805  0:014  === [ GetEfiBootDeviceFromNvram ] ===============
+32:819  0:014   - found entry 1. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+32:855  0:036  DefaultIndex=1 and MainMenu.Entries.size()=10
+36:075  3:220  exit from MainMenu 1
+36:091  0:015  ParseBootOption: invalid input params
+36:106  0:014  BootVariable of the entry is empty
+36:120  0:014  === [ StartLoader ] =============================
+36:135  0:014  Finally: ExternalClock=25MHz BusSpeed=99774kHz CPUFreq=2295MHz PIS: hw.busfrequency=100000000Hz
+36:175  0:040  start loader
+36:189  0:014  Loading boot.efi  status=Success
+37:930  1:740  GetOSVersion: 10.12.6 (16G29)
+37:960  0:029  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS
+37:975  0:014  Will not patch boot.efi
+37:989  0:014  === [ PatchSmbios ] =============================
+38:009  0:019  SmbiosTable: Type 2 (BaseBoard Information) not found, create new
+38:040  0:031  insert table 9 for dev 0:0
+38:066  0:025  insert table 9 for dev 0:1
+38:080  0:014  insert table 9 for dev 0:1
+38:095  0:014  Table 11 present, but rewritten for us
+38:111  0:016  Trusting SMBIOS...
+38:126  0:014  Detected alternating SMBIOS channel banks
+38:141  0:014  Channels: 2
+38:156  0:015  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+38:566  0:409   partNum=NOT AVAILABLE       
+38:581  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+38:596  0:014  BANK 0 DIMM0 1866MHz 4096MB(Ext:0MB)
+38:621  0:025   partNum=NOT AVAILABLE       
+38:636  0:014  SMBIOS Type 17 Index = 1 => 1 2:
+38:650  0:014  BANK 1 DIMM0 1866MHz 4096MB(Ext:0MB)
+38:665  0:014  mTotalSystemMemory = 8192
+38:680  0:014  NumberOfMemoryDevices = 2
+38:695  0:014  === [ PatchACPI ] ===============================
+38:709  0:014  Xsdt reallocation done
+38:724  0:014  old FADT length=F4
+38:739  0:014   SignatureFixup: 0xABCD -> 0x0
+38:753  0:014  Apply DsdtFixMask=0x00009051
+38:768  0:014     drop _DSM mask=0xFFFF
+38:783  0:015  === [ FixBiosDsdt ] =============================
+38:820  0:037    0 replacements
+38:846  0:025  Start HPET Fix
+38:861  0:014  Start Add Device HDEF
+38:876  0:015  PreCleanup XSDT: count=18, length=180
+38:891  0:015  PreCleanup XSDT, corrected XSDT: count=18, length=180
+38:906  0:015  === [ ACPIDropTables ] ==========================
+38:921  0:014    0 replacements
+38:936  0:014    0 replacements
+38:951  0:015    0 replacements
+38:967  0:015    0 replacements
+38:981  0:014    0 replacements
+39:007  0:025  ApicCPUNum=2
+39:022  0:014  Cleanup XSDT: count=18, length=180
+39:037  0:014  corrected XSDT count=18, length=180
+39:051  0:014  === [ RestSetup macOS ] =========================
+39:067  0:015  NVidia GFX injection not set
+39:082  0:015  stringlength = 1992
+39:097  0:014  CurrentMode: Width=1024 Height=768
+39:123  0:025  Beginning FSInjection
+39:163  0:040  Use origin smbios table type 1 guid.
+39:179  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+39:205  0:026  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+39:220  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10
+39:236  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10_install
+39:250  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12
+39:265  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12_install
+39:280  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12.6
+39:306  0:025  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.12.6_install
+39:321  0:014  Custom boot screen not used because entry has unset use graphics
+39:336  0:015  Closing log
+77:376  38:040  Custom boot screen is not locked
+77:392  0:015  Failed to unlock custom boot screen: Not Ready!
+0:100  0:100  MemLog inited, TSC freq: 2294789765
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  LegacyRegion2: Chipset/proc: 0x01508086
+0:100  0:000   Next Generation Core processors (PAM 0x80-0x86)
+0:100  0:000   Test PAM1=(0x41=90, 0x5a=00, 0x81=33, 0x91=00) at chipset 01508086
+0:100  0:000  , Install = Success
+0:112  0:012  BiosVideoDriverBindingStart!
+0:112  0:000  BiosVideoCheckForVbe
+0:112  0:000  EdidOverride not found
+0:159  0:047   Edid1-
+0:206  0:047   Edid0-
+0:557  0:351   Edid1-
+0:908  0:351   Edid0-
+1:448  0:539   Edid1-
+1:988  0:539   Edid0-
+2:339  0:350   Edid1-
+2:690  0:350   Edid0-
+2:723  0:032     0 640x480 attr=BF - ok, 640x480, working, highest, pref=0
+2:725  0:002     1 800x600 attr=BF - ok, 800x600, working, highest, pref=1
+2:728  0:002     2 1024x768 attr=BF - ok, 1024x768, working, highest, pref=2
+2:730  0:002     3 1280x1024 attr=BF - ok
+2:733  0:003     4 1600x1200 attr=BF - ok
+2:737  0:003     5 1360x768 attr=BF - ok
+2:737  0:000  BV new mode: 2 1024x768
+2:899  0:162   SetMode pref 2 (2) = Success
+4:700  1:800  
+4:700  0:000  Now is 04.04.2020,  13:19:05 (GMT)
+4:700  0:000  Starting Clover revision: 5107 (HEAD, commit a3f3053c3) on CLOVER EFI
+4:700  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/macman/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 10.14.6]
+4:700  0:000  SelfDevicePath=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000) @D4741818
+4:700  0:000  SelfDirPath = \EFI\CLOVER
+4:700  0:000  Clover : Image base = 0xD5226000
+5:538  0:838  SimpleTextEx Status=Success
+5:538  0:000  === [ Get Smbios ] ==============================
+5:538  0:000  Type 16 Index = 0
+5:538  0:000  Total Memory Slots Count = 2
+5:538  0:000  Type 17 Index = 0
+5:538  0:000  SmbiosTable.Type17->Speed = 1866MHz
+5:538  0:000  SmbiosTable.Type17->Size = 4096MB
+5:538  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  1 
+5:538  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+5:538  0:000  SmbiosTable.Type17->SerialNumber = 
+5:538  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+5:538  0:000  Type 17 Index = 1
+5:538  0:000  SmbiosTable.Type17->Speed = 1866MHz
+5:538  0:000  SmbiosTable.Type17->Size = 4096MB
+5:538  0:000  SmbiosTable.Type17->Bank/Device =  PROC  1 DIMM  2 
+5:538  0:000  SmbiosTable.Type17->Vendor = UNKNOWN
+5:538  0:000  SmbiosTable.Type17->SerialNumber = 
+5:538  0:000  SmbiosTable.Type17->PartNumber = NOT AVAILABLE       
+5:538  0:000  Boot status=0
+5:538  0:000  Running on: 'ProLiant MicroServer Gen8' with board ''
+5:538  0:000  === [ GetCPUProperties ] ========================
+5:538  0:000  CPU Vendor = 756E6547 Model=306A9
+5:538  0:000   The CPU supported SSE4.1
+5:538  0:000  BrandString = Intel(R) Celeron(R) CPU G1610T @ 2.30GHz
+5:538  0:000   The CPU not supported turbo
+5:538  0:000  MSR 0x35               20002
+5:538  0:000  MSR 0xE2 before patch 1E008400
+5:538  0:000  MSR 0xE2 is locked, PM patches will be turned on
+5:538  0:000  MSR 0xCE              00081010_E0011700
+5:538  0:000  MSR 0x1B0             00000000
+5:538  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+5:538  0:000  MaxDiv/MinDiv: 23.0/16
+5:538  0:000  Turbo: 23/23/23/23
+5:538  0:000  Features: 0xBFEBFBFF
+5:538  0:000  Threads: 2
+5:538  0:000  Cores: 2
+5:538  0:000  FSB: 100 MHz
+5:538  0:000  CPU: 2300 MHz
+5:538  0:000  TSC: 2300 MHz
+5:538  0:000  PIS: 100 MHz
+5:538  0:000  ExternalClock: 25 MHz
+5:538  0:000  === [ GetDevices ] ==============================
+5:538  0:000  GOP found at: PcieRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/AcpiAdr(0x80010100)
+5:538  0:000  PCI (00|00:00.00) : 8086 0150 class=060000
+5:538  0:000  PCI (00|00:01.00) : 8086 0151 class=060400
+5:538  0:000  PCI (00|07:00.00) : 10DE 1B82 class=030000
+5:538  0:000   - GOP: Provided by device
+5:538  0:000   - GFX: Model=Unknown family 134 (Pascal)
+5:538  0:000  PCI (00|07:00.01) : 10DE 10F0 class=040300
+5:538  0:000   - HDMI Audio: 
+5:538  0:000  PCI (00|00:06.00) : 8086 015D class=060400
+5:539  0:000  PCI (00|00:1A.00) : 8086 1C2D class=0C0320
+5:539  0:000  PCI (00|00:1C.00) : 8086 1C10 class=060400
+5:539  0:000  PCI (00|00:1C.04) : 8086 1C18 class=060400
+5:539  0:000  PCI (00|03:00.00) : 14E4 165F class=020000
+5:539  0:000   - LAN: 0 Vendor=Broadcom
+5:539  0:000  PCI (00|03:00.01) : 14E4 165F class=020000
+5:539  0:000   - LAN: 1 Vendor=Broadcom
+5:539  0:000  PCI (00|00:1C.06) : 8086 1C1C class=060400
+5:539  0:000  PCI (00|04:00.00) : 1912 0014 class=0C0330
+5:539  0:000  PCI (00|00:1C.07) : 8086 1C1E class=060400
+5:539  0:000  PCI (00|01:00.00) : 103C 3306 class=088000
+5:539  0:000  PCI (00|01:00.02) : 103C 3307 class=088000
+5:539  0:000  PCI (00|01:00.04) : 103C 3300 class=0C0300
+5:539  0:000  PCI (00|00:1D.00) : 8086 1C26 class=0C0320
+5:539  0:000  PCI (00|00:1E.00) : 8086 244E class=060401
+5:539  0:000  PCI (00|00:1F.00) : 8086 1C54 class=060100
+5:539  0:000  PCI (00|00:1F.02) : 8086 1C02 class=010601
+5:539  0:000  === [ GetDefaultSettings ] ======================
+5:539  0:000  Clover load options size = 0 bytes
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8--00-00-00-00-00-00. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\ProLiant MicroServer Gen8-2300. Dir not exists
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\. 'config.plist' not exists in dir
+5:540  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\-2300. Dir not exists
+5:540  0:000  set OEMPath by default: EFI\CLOVER
+5:542  0:002  EFI\CLOVER\config.plist loaded: Success
+5:542  0:000  === [ GetListOfThemes ] =========================
+5:542  0:000  - [00]: embedded
+5:543  0:000  - [00]: random
+5:543  0:000  - [00]: tonymacx86
+5:544  0:000  === [ Found config plists ] =====================
+5:544  0:000  - config.plist
+5:545  0:001  === [ GetEarlyUserSettings ] ====================
+5:545  0:000  timeout set to 3
+5:545  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+5:585  0:040  Default theme: tonymacx86
+5:600  0:014  Hiding entries with string Windows
+5:615  0:014  Hiding entries with string BOOTX64.EFI
+5:630  0:015  === [ LoadDrivers ] =============================
+5:645  0:015  Loading ApfsDriverLoader.efi  status=Success
+5:692  0:046   - driver needs connecting
+5:707  0:015  Loading AudioDxe.efi  status=Success
+5:753  0:045   - driver needs connecting
+5:768  0:015  Loading FSInject.efi  status=Success
+5:825  0:056  Loading VirtualSmc.efi  status=Success
+5:980  0:155  Loading XhciDxe.efi  status=Success
+6:025  0:045   - driver needs connecting
+6:040  0:014  3 drivers needs connecting ...
+6:055  0:015  PlatformDriverOverrideProtocol->GetDriver overriden
+6:070  0:015  APFS driver loaded
+7:735  1:664  === [ InitScreen ] ==============================
+7:750  0:014  Console modes reported: 4, available modes:
+8:738  0:987   - [01]: 80x25
+8:753  0:014   - [03]: 100x31
+8:767  0:014   - [04]: 128x40 (current mode)
+8:793  0:025  SetScreenResolution: 1920x1080 - not found!
+8:823  0:029  SetScreenResolution: 1024x768 - already set
+8:863  0:040  reinit: self device path=PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+8:878  0:015  new SelfHandle=D4741818
+8:894  0:016  Using embedded font: Success
+8:911  0:016  === [ GetMacAddress ] ===========================
+8:925  0:014  === [ ScanSPD ] =================================
+8:941  0:015  === [ GetAcpiTablesList ] =======================
+8:978  0:036  Get Acpi Tables List from RSDT:
+9:008  0:030   - [00]: FACP  ProLiant len=116
+9:023  0:014   - [01]: SPCR  SPCRRBSU len=80
+9:038  0:014   - [02]: MCFG  ProLiant len=60
+9:053  0:015   - [03]: HPET  ProLiant len=56
+9:068  0:015   - [04]: FFFF  ProLiant len=100
+9:083  0:014   - [05]: SPMI  ProLiant len=64
+9:098  0:014   - [06]: ERST  ProLiant len=560
+9:113  0:014   - [07]: APIC  ProLiant len=594
+9:138  0:025   - [08]: FFFF  ProLiant len=374
+9:164  0:025   - [09]: BERT  ProLiant len=48
+9:179  0:015   - [10]: HEST  ProLiant len=188
+9:194  0:015   - [11]: FFFF  ProLiant len=6420
+9:209  0:014   - [12]: FFFF  ProLiant len=45
+9:224  0:014   - [13]: SSDT  CRSPCI0 len=311
+9:239  0:015   - [14]: SSDT  riser0 len=375
+9:254  0:015   - [15]: SSDT  pcc len=481
+9:269  0:014   - [16]: SSDT  pmab len=887
+9:284  0:014   - [17]: SSDT  PPM RCM  len=1148
+9:299  0:015  Calibrated TSC Frequency = 2294789765 = 2294MHz
+9:314  0:015  === [ GetUserSettings ] =========================
+9:340  0:025  USB FixOwnership: yes
+9:355  0:014  Dropping 1 tables:
+9:370  0:014   - [00]: Drop table  signature="MATS" (5354414D)
+9:497  0:127           - set table: 5354414D,                0 to drop: no
+9:527  0:029   - final DSDT Fix mask=00009051
+9:542  0:014  Using ProductName from clover: iMac13,2
+9:556  0:014  BiosVersion: not set, Using BiosVersion from clover
+9:571  0:015  BiosVersion: IM131.88Z.F000.B00.2002052050
+9:587  0:015  BiosReleaseDate: 02/05/2020
+9:612  0:025  Using EfiVersion from clover: 290.0.0.0.0
+9:627  0:014  Using FirmwareFeatures from clover: 0xE00DE137
+9:642  0:015  Using FirmwareFeaturesMask from clover: 0xFF1FFF3F
+9:657  0:014  Using PlatformFeature from clover: 0x1
+9:683  0:026  === [ Found DSDT tables ] =======================
+9:699  0:015  === [ ScanVolumes ] =============================
+9:714  0:014  Found 8 volumes with blockIO
+9:728  0:014  - [00]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)
+9:769  0:040          Result of bootcode detection: bootable unknown (legacy)
+9:795  0:025  - [01]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(1,GPT,4E8F7DC9-BAEF-4455-85D7-0B5ECE1ACB6E,0x28,0x64000)
+9:824  0:029          Result of bootcode detection: bootable unknown (legacy)
+9:839  0:014          This is SelfVolume !!
+9:854  0:014  - [02]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)
+9:883  0:029          Result of bootcode detection: bootable unknown (legacy)
+9:909  0:026  - [03]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(3,GPT,99F840E5-5ACC-4F72-BB80-3B8787F3C876,0x1304620,0x1BF4BE18)
+9:940  0:030  - [04]: Volume: PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(4,GPT,44F97456-5FF7-4EC9-8F89-3DF2ECC5456F,0x1D250438,0x135F20)
+9:981  0:040  - [05]: Volume: PcieRoot(0x0)\Pci(0x1C,0x6)\Pci(0x0,0x0)\USB(0x4,0x0)
+10:015  0:033          Result of bootcode detection: bootable unknown (legacy)
+10:030  0:014  - [06]: Volume: PcieRoot(0x0)\Pci(0x1C,0x6)\Pci(0x0,0x0)\USB(0x4,0x0)\HD(1,GPT,9DB24B83-2806-4AD5-A543-D94FE369AF48,0x28,0x64000)
+10:071  0:041          Result of bootcode detection: bootable unknown (legacy)
+10:092  0:020  - [07]: Volume: PcieRoot(0x0)\Pci(0x1C,0x6)\Pci(0x0,0x0)\USB(0x4,0x0)\HD(2,GPT,4A1BC17B-AB81-4A2C-BE8D-F9998D37BCF6,0x64028,0x1D08BB0)
+10:124  0:032  Searching volumes for latest nvram.plist ...
+10:154  0:029  loaded Status=Not Found
+10:169  0:015  PutNvramPlistToRtVars: nvram.plist not found
+10:195  0:025  found 1 handles with audio
+10:209  0:014  No AudioIoDevice stored
+10:224  0:015  no stored audio parameters
+10:250  0:025  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+10:265  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+10:280  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+10:295  0:014  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+10:309  0:014  === [ InitTheme ] ===============================
+10:324  0:015  use daylight theme
+10:351  0:026  Using theme 'tonymacx86' (EFI\CLOVER\themes\tonymacx86)
+10:367  0:015  file sound read: sound.wav Not Found
+10:382  0:014  Loading font from ThemeDir: Error
+10:399  0:016  theme inited
+10:413  0:014  Chosen theme tonymacx86
+10:428  0:014  after NVRAM boot-args=dart=0
+10:443  0:014  Scanning legacy ...
+10:457  0:014  === [ Dump SMC keys from NVRAM ] ================
+10:472  0:014  found AppleSMC protocol
+10:487  0:014  === [ ScanLoader ] ==============================
+10:512  0:025  - [01]: 'EFI'
+10:606  0:093          AddLoaderEntry for Volume Name=EFI
+10:622  0:016          skipped because entry is hidden
+10:637  0:014  - [02]: 'Install macOS High Sierra'
+10:667  0:029          AddLoaderEntry for Volume Name=Install macOS High Sierra
+10:728  0:061  - [03]: 'Second'
+10:762  0:034          AddLoaderEntry for Volume Name=Second
+10:778  0:015      Check if volume Is Hibernated:
+10:793  0:014      Check sleep image 'by signature':
+10:814  0:021      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+10:840  0:025      using default sleep image name = \private\var\vm\sleepimage
+10:857  0:017      sleepimage not found -> Not Found
+10:872  0:014      hibernated: no - sign
+10:928  0:056  - [04]: 'Recovery HD'
+10:957  0:029          AddLoaderEntry for Volume Name=Recovery HD
+11:004  0:046  - [06]: 'EFI'
+11:103  0:099          AddLoaderEntry for Volume Name=EFI
+11:118  0:014          skipped because entry is hidden
+11:133  0:014  - [07]: 'Install macOS Sierra'
+11:175  0:041          AddLoaderEntry for Volume Name=Install macOS Sierra
+11:223  0:048  === [ AddCustomTool ] ===========================
+11:241  0:017  found tool \EFI\CLOVER\tools\Shell64U.efi
+11:258  0:017  Checking EFI partition Volume 1 for Clover
+11:273  0:014   Found Clover
+11:291  0:018  === [ GetEfiBootDeviceFromNvram ] ===============
+11:307  0:015   - found entry 0. 'Boot macOS Install from Install macOS High Sierra', Volume 'Install macOS High Sierra', DevicePath 'PcieRoot(0x0)\Pci(0x1F,0x2)\Sata(0x4,0x0,0x0)\HD(2,GPT,533A962D-0B83-412B-8C9C-778E482015C0,0x64028,0x12605F8)\System\Library\CoreServices\boot.efii'
+11:338  0:031  DefaultIndex=0 and MainMenu.Entries.size()=10
+11:603  0:264  GUI ready
+15:736  4:132  exit from MainMenu 4
+15:751  0:015  === [ StartLoader ] =============================
+15:766  0:014  Finally: ExternalClock=25MHz BusSpeed=99774kHz CPUFreq=2295MHz PIS: hw.busfrequency=100000000Hz
+15:796  0:030  start loader
+15:811  0:014  Loading boot.efi  status=Success
+15:961  0:149  GetOSVersion: 10.13.6 (17G66)
+15:991  0:029  CSR_CFG: CSR_ALLOW_UNTRUSTED_KEXTS | CSR_ALLOW_UNRESTRICTED_FS
+16:006  0:015  Will not patch boot.efi
+16:020  0:014  === [ PatchSmbios ] =============================
+16:035  0:014  SmbiosTable: Type 2 (BaseBoard Information) not found, create new
+16:050  0:015  insert table 9 for dev 0:0
+16:077  0:026  insert table 9 for dev 0:1
+16:091  0:014  insert table 9 for dev 0:1
+16:106  0:014  Table 11 present, but rewritten for us
+16:123  0:016  Trusting SMBIOS...
+16:149  0:026  Detected alternating SMBIOS channel banks
+16:164  0:014  Channels: 2
+16:179  0:015  Interleave: 0 2 1 3 4 6 5 7 8 10 9 11 12 14 13 15 16 18 17 19 20 22 21 23
+16:578  0:398   partNum=NOT AVAILABLE       
+16:592  0:014  SMBIOS Type 17 Index = 0 => 0 0:
+16:629  0:036  BANK 0 DIMM0 1866MHz 4096MB(Ext:0MB)
+16:644  0:015   partNum=NOT AVAILABLE       
+16:659  0:015  SMBIOS Type 17 Index = 1 => 1 2:
+16:674  0:014  BANK 1 DIMM0 1866MHz 4096MB(Ext:0MB)
+16:689  0:014  mTotalSystemMemory = 8192
+16:715  0:025  NumberOfMemoryDevices = 2
+16:730  0:014  === [ PatchACPI ] ===============================
+16:745  0:014  Xsdt reallocation done
+16:760  0:015  old FADT length=F4
+16:775  0:014   SignatureFixup: 0xABCD -> 0x0
+16:790  0:014  Apply DsdtFixMask=0x00009051
+16:805  0:015     drop _DSM mask=0xFFFF
+16:820  0:015  === [ FixBiosDsdt ] =============================
+16:835  0:015    0 replacements
+16:850  0:014  Start HPET Fix
+16:865  0:014  Start Add Device HDEF
+16:901  0:036  PreCleanup XSDT: count=18, length=180
+16:916  0:015  PreCleanup XSDT, corrected XSDT: count=18, length=180
+16:931  0:015  === [ ACPIDropTables ] ==========================
+16:946  0:014    0 replacements
+16:961  0:014    0 replacements
+16:976  0:015    0 replacements
+16:991  0:015    0 replacements
+17:006  0:014    0 replacements
+17:021  0:014  ApicCPUNum=2
+17:036  0:015  Cleanup XSDT: count=18, length=180
+17:052  0:015  corrected XSDT count=18, length=180
+17:066  0:014  === [ RestSetup macOS ] =========================
+17:092  0:026  NVidia GFX injection not set
+17:108  0:015  stringlength = 1992
+17:123  0:015  CurrentMode: Width=1024 Height=768
+17:138  0:014  Beginning FSInjection
+17:164  0:026  Use origin smbios table type 1 guid.
+17:180  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Other
+17:195  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\Off
+17:210  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10
+17:236  0:026  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10_install
+17:250  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13
+17:265  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13_install
+17:280  0:014  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13.6
+17:295  0:015  Preparing kexts injection for arch=x86_64 from EFI\CLOVER\kexts\10.13.6_install
+17:310  0:014  SetScreenResolution: 1024x768 - already set
+17:350  0:040  Custom boot is disabled
+17:364  0:014  Closing log
+19:797  2:432  Legacy USB Off Done
+19:824  0:026  USB EHCI Ownership for device 1C2D value=1000001
+19:840  0:016  USB UHCI reset for device 3300
+19:867  0:027  Legacy USB Off Done
+19:882  0:014  USB EHCI Ownership for device 1C26 value=1000001
